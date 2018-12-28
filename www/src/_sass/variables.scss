@@ -1,0 +1,16 @@
+$brand-color: rgba(13, 100, 129, .8);
+$brand-color-2: rgba(70, 76, 191, .8);
+
+$background-color: rgb(28, 86, 129);
+
+$font-color-2: rgb(213, 254, 167);
+$font-color-1: rgb(233, 149, 149);
+
+$default-hero-image: url(/images/hero/muesli-jar.jpg);
+
+// Breakpoints
+$tablet: "(min-width: 450px)";
+$above-tablet: "(min-width: 550px)";
+$mid-point: "(min-width: 850px)";
+$below-mid-point: "(max-width: 849px)";
+$desktop: "(min-width: 768px)";

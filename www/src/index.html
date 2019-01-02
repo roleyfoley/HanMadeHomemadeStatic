@@ -1,8 +1,7 @@
 ---
 title: HanMade Homemade
-hero: Online Shop Coming Soon
 subtitle: 
-permalink: /new/
+permalink: /new/index.html
 ---
 
 <div class="content" id="products">
@@ -12,7 +11,13 @@ permalink: /new/
 			<ul class="product-list">
 				{% for product in site.products %}
 					<li>
-						{% include product-styles.html product=product %}
+						<div class="styles">
+							<div class="style">
+								<a href="{{ product.url }}">
+									<img src="{% include relative-src.html src=product.image_path %}">
+								</a>
+							</div>
+						</div>
 						<div class="product-details">
 							<h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
 							<div class="product-description">

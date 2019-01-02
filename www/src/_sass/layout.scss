@@ -67,6 +67,20 @@
 		top: -6px;
 		left: 3px;
 	}
+
+	.company-logo {
+		display: inline-block;
+		height: 150px;
+		width: 150px;
+	}
+	
+	.company-logo-small {
+		display: inline-block;
+		height: 50px;
+		widows: 50px;
+		border-radius: 50px;
+		padding: 2px;
+	}
 }
 
 .screenshot{
@@ -80,7 +94,7 @@
 }
 
 section {
-	padding: 100px 0;
+	padding: 10px 0;
 }
 
 section + section {
@@ -98,6 +112,10 @@ section + section {
 }
 
 .page h2 {
+	text-align: center;
+}
+
+.center-text {
 	text-align: center;
 }
 

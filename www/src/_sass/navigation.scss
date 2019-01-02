@@ -14,7 +14,7 @@
 
 header {
 	color: #000;
-	padding: 20px 0 59px 0;
+	padding: 20px 0 10px 0;
 	position: relative;
 
 	p {
@@ -29,22 +29,6 @@ header {
 			border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 			transform: translate(-50%, 0);
 
-		}
-
-		&:before {
-			transform: skewX(-15deg);
-			box-shadow: 99px 29px 170px -24px rgba(0,0,0,.05);
-			top: -254px;
-			bottom: 50%;
-			left: 43%
-		}
-
-		&:after {
-			box-shadow: inset 92px -41px 104px -28px rgba(0,0,0,.05);
-			transform: skewX(-12deg);
-			top: 47%;
-			left: 40%;
-			bottom: -121px;
 		}
 	}
 
@@ -71,8 +55,14 @@ nav {
 		padding: 0 0 0 40px;
 	}
 
+	.count_btn {
+		margin: 5px;
+		text-align: center;
+		justify-content: center;
+	}
+
 	a {
-		margin: 0 3px;
+		margin: 0 10px;
 		padding: 20px 10px;
 		border-bottom: 1px solid rgba(255,255,255,0);
 		color: #000;
@@ -106,7 +96,7 @@ nav {
 	}
 
 	a:hover {
-		color: $brand-color;
+		color: $font-color-1;
 	}
 
 
@@ -134,7 +124,7 @@ nav {
 		a.cart {
 			border-radius: 43px;
 			color: #000;
-			border: 1px solid rgba(255,255,255, .4);
+			border: 1px solid rgba(0,0,0, .4);
 			position: absolute;
 			right: 20px;
 			top: -2px;
@@ -143,7 +133,7 @@ nav {
 
 
 			&:hover {
-				border-color: $brand-color;
+				border-color: $font-color-1;
 			}
 		}
 	}

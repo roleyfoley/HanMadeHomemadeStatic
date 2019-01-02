@@ -6,7 +6,7 @@ url: "https://www.hanmadehomemade.com.au"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
-snipcart_key: "OWMyYmJmMGYtNmJjYy00YWRkLWJiY2ItZGNiMGRlNzhlZDg4NjM2NzQ5NDQ3Nzg0MjcyNjE3"
+snipcart_key: "YWZlYjA5ZmEtMzJhYy00OWE5LTg3ZTUtYWY2ZjYzYjZlNjAzNjM2NzUyODgwNDk2MTUxOTQ0"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png

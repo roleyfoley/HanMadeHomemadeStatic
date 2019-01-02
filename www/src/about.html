@@ -1,10 +1,32 @@
 ---
 title: Our Story
 hero: Our story
+idea: 
+  Sprouted from a passion for providing wholesome muesli to friends and family, Hanmade Homemade aims to provide the community with sustainable, nutritious and scrumptious ways to fuel your morning.
+  I strongly believe that breakfast is the most important meal of the day, whether you have 2 minutes or 10 minutes, Hanmade Homemade will help you find the perfect option that keeps you sharp and spritely throughout the day. 
+  All ingredients in Hanmade Homemade products are sourced from local Canberra businesses and with limited plastic packaging and transportation costs, to provide customers with environmentally conscious muesli and snacks while also educating the community on how to reduce food, plastic and material. With each bite, you're supporting the local economy, the environment and your taste bubs.
+idea_image_path: /images/about/idea.jpg
 ---
 
 <div>
-	<h2 >The Team</h2>
+	<h3 class="center-text">The Idea</h3>
+	<ul class="staff">
+		<li>
+			<div class="staff-member">
+				<div class="staff-detail">
+					<div class="blurb">{{page.idea}}</div>
+				</div>
+				<div class="staff-intro">
+					<div class="square-image" style="background-image: url({% include relative-src.html src=page.idea_image_path %})"></div>
+				</div>
+			</div>
+		</li>
+
+	</ul>
+</div>
+
+<div>
+	<h3 class="center-text">The Team</h3>
 	<ul class="staff">
 		{% for person in site.staff_members %}
 			<li>
@@ -22,9 +44,3 @@ hero: Our story
 	</ul>
 </div>
 
-<div>
-	<h2 class="editable">The Idea</h2>
-	<p class="editable">Sprouted from a passion for providing wholesome muesli to friends and family, Hanmade Homemade aims to provide the community with sustainable, nutritious and scrumptious ways to fuel your morning. </p> 
-	<p>I strongly believe that breakfast is the most important meal of the day, whether you have 2 minutes or 10 minutes, Hanmade Homemade will help you find the perfect option that keeps you sharp and spritely throughout the day. </p>
-	<p>All ingredients in Hanmade Homemade products are sourced from local Canberra businesses and with limited plastic packaging and transportation costs, to provide customers with environmentally conscious muesli and snacks while also educating the community on how to reduce food, plastic and material. With each bite, you're supporting the local economy, the environment and your taste bubs. </p>
-</div>

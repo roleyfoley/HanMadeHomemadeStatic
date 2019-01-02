@@ -4,6 +4,19 @@
 	border-radius: 3px;
 }
 
+.contact-image { 
+	height: 500px;
+	width: 333px;
+	border-radius: 10px;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	@media #{$mid-point} {
+		height: 750px;
+		width: 500px;
+	}
+}
+
 .contact-box {
 	@extend %flexbox;
 	@include flex-flow(wrap);

@@ -1,10 +1,14 @@
 .styles {
 	width: 100%;
-	background: #eee;
 	position: relative;
-	padding: 20px;
 	box-sizing: border-box;
-	border-radius: 3px;
+
+	.style {
+		img {
+			border-radius: 10px;
+		}
+		
+	}
 
 	.style-picker {
 		z-index: 2;

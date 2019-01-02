@@ -7,4 +7,5 @@ sku: mueslibag
 sizes:
   - 450g Bag 
 subscription: false
+image_path: /images/products/muesli/bag.jpg
 ---

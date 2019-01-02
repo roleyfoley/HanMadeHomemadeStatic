@@ -1,5 +1,5 @@
 - name: Products
-  link: /
+  link: /new
   new_window: false
   highlight: false
 - name: Our Story

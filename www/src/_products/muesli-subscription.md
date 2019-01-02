@@ -10,4 +10,5 @@ sku: mueslisubscription
 sizes:
   - 1.5kg Jar
 subscription: true
+image_path: /images/products/muesli/subscription.jpg
 ---

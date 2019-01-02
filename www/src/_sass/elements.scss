@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-	font-family: "San Francisco", "Helvetica Neue", "Helvetica", "Arial";
+	font-family: 'Ubuntu', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -35,6 +35,7 @@ h2 {
 	font-weight: 300;
 	font-size: 2.2em;
 	margin: 0;
+	color: $font-color-1;
 }
 
 h3 {

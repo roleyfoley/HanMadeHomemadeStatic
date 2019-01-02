@@ -1,11 +1,11 @@
 
 .staff-image {
 	margin: 25px auto 0 auto;
-	background: no-repeat center center;
-	background-size: cover;
-	border-radius: 300px;
-	width: 70%;
-	padding-bottom: 70%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 5px;
+	width: 150px;
+	height: 150px;	
 }
 
 .staff {
@@ -17,21 +17,27 @@
 	justify-content: center;
 
 	li {
-		padding: 30px 20px;
-		box-sizing: border-box;
+		padding: 5px 5px;
 		flex: 1 1 900px;
-		background: #fff;
-		margin: 0 60px;
-		border-radius: 3px;
-		box-shadow: 0 10px 100px 0 rgba(0,0,0,0.1);
+		margin: 0 5px;
+
+		@media #{$mid-point} {
+			padding: 30px 20px;
+			flex: 1 1 900px;
+			margin: 0 60px;	
+		}
 	}
 
 	.square-image {
-		width: 400px;
-		height: 400px;
-
-		img {
-			border-radius: 400px;
+		height: 300px;
+		width: 300px;
+		border-radius: 10px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	
+		@media #{$mid-point} {
+			height: 400px;
+			width: 400px;
 		}
 	}
 
@@ -51,20 +57,20 @@
 
 	.staff-member {
 		@extend %flexbox;
-		@include align-items(center)
+		@include align-items(center);
+		@include flex-flow(column);
+
+		@media #{$mid-point} {
+			@include flex-flow(row);
+		}
 	}
 
 	.staff-detail { 
-		max-width: 80%;
-		padding: 20px;
-	}
-	
-}
+		padding: 10px;
 
-.story-points {
-	h3 {
-		font-size: 1.3rem;
-		margin: 0;
-		color: $brand-color;
+		@media #{$mid-point} {
+			padding: 20px;
+			max-width: 80%;
+		}
 	}
 }

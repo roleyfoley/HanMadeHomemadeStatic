@@ -5,8 +5,8 @@
 }
 
 .contact-image { 
-	height: 500px;
-	width: 333px;
+	height: 112vw;
+	width: 75vw;
 	border-radius: 10px;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -23,6 +23,7 @@
 	max-width: 1000px;
 	margin: 0 auto 20px auto;
 	padding: 0 0 50px 0;
+	justify-content: center;
 
 	form {
 		width: 100%

@@ -11,5 +11,8 @@
 		{% endif %}
 		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
 	{% endfor %}
-	<a href="#" class="cart snipcart-checkout"><div class="snipcart-summary"><span class="count_btn snipcart-total-items"></span><i class="material-icons">shopping_cart</i></div></a>
+	<div class="snipcart-summary">
+		<a href="#" class="cart snipcart-checkout"><span class="count_btn snipcart-total-items"></span><i style="vertical-align: middle;" class="material-icons">shopping_cart</i></a>
+		<a href="#" class="profile snipcart-user-profile"><i class="material-icons">account_box</i><span>Manage My Account</span></a>
+	</div>
 </nav>

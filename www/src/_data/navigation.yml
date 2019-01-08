@@ -1,8 +1,8 @@
 - name: Products
-  link: /new
+  link: /products
   new_window: false
   highlight: false
-- name: Our Story
+- name: About Us
   link: /about/
   new_window: false
   highlight: false

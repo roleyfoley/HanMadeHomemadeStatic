@@ -1,10 +1,10 @@
 ---
 name:
 price:
+product_category: muesli
 sku:
 description:
-sizes:
-  - 450g Bag
 subscription : false
 image_path: 
+shippable: true
 ---

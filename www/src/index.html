@@ -1,36 +1,33 @@
 ---
-title: HanMade Homemade
-subtitle: 
+title: Hanmade Homemade
 permalink: /new/index.html
 ---
 
-<div class="content" id="products">
-	<section>
-		<div class="container">
-			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
-			<ul class="product-list">
-				{% for product in site.products %}
-					<li>
-						<div class="styles">
-							<div class="style">
-								<a href="{{ product.url }}">
-									<img src="{% include relative-src.html src=product.image_path %}">
-								</a>
-							</div>
-						</div>
-						<div class="product-details">
-							<h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
-							<div class="product-description">
-								{{ product.description_markdown | truncate: 45 | markdownify }}
-							</div>
-							<p>${{ product.price }}</p>
-						</div>
-					</li>
-				{% endfor %}
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</div>
-	</section>
+<div>
+	<ul class="headlines">
+		{% for headline in site.headlines %}
+		<li>
+			{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+			{% if thecycle == 'odd' %}
+				<div class="headline img-first">
+					<div class="headline-blurb">
+						<div class="blurb">{{headline.blurb}}</div>
+					</div>
+					<div class="headline-image">
+						<div class="{{headline.image_direction}}" style="background-image: url({% include relative-src.html src=headline.image_path %})"></div>
+					</div>
+				</div>
+			{% else %}
+				<div class="headline img-second">
+					<div class="headline-blurb">
+							<div class="blurb">{{headline.blurb}}</div>
+					</div>
+					<div class="headline-image">
+						<div class="{{headline.image_direction}}" style="background-image: url({% include relative-src.html src=headline.image_path %})"></div>
+					</div>
+				</div>
+			{% endif %}
+		</li>
+		{% endfor %}
+	</ul>
 </div>

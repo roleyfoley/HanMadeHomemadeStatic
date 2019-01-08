@@ -14,9 +14,14 @@ layout: default
 				</div>
 				<div class="product-details" id="add">
 					<h3>{{ page.name }}</h3>
+					<h4>{{ page.description}}</h4>
+					
 					{{ page.description_markdown | markdownify }}
 
-					<h4>${{ page.price }}</h4>
+					{% assign category_details = site.product_categories[page.product_category] %}
+					{{ category_details.extra_details | markdownify }}
+
+					<h4>${{ page.price }} {% if page.subscription %} per month {% endif %}</h4>
 					<div class="button">{% include snipcart-button.html product=page %}</div>
 				</div>
 			</div>

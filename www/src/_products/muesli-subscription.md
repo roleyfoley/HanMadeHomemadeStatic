@@ -1,14 +1,13 @@
 ---
 name: Seasonal Muesli Subscription
+description: 1.5kg Jar
+product_category: muesli
 description_markdown: >-
-  A muesli that ticks all the boxes, taste, nutrition and good at heart. Ingredients are selected to highlight the flavours of the season and source locally to support a thriving community. Whether you sprinkle it on your yoghurt, drown it in milk, spoon it into your smoothie or eat it by the handful, you choose your breakfast adventure.
-
-  The perfect option for the serious muesli lover, 1.5kg of scrumptious seasonal muesli provides a waste conscious way to fulfil your breakfast and snack needs.
+  The perfect option for the serious muesli lover, 1.5kg of scrumptious seasonal muesli provides a waste conscious way to fulfil your breakfast and snack needs. In an effort to reduce Hanmade Homemade's environmental footprint, we source organic  ingredients from local businesses where possible and refill your order in a reusable container. Enough muesli to fuel your mornings for a month and when stocks are getting scarce we will be on our way with the next freshly made batch.
   
 price: '30.00'
 sku: mueslisubscription
-sizes:
-  - 1.5kg Jar
 subscription: true
+shippable: true
 image_path: /images/products/muesli/subscription.jpg
 ---

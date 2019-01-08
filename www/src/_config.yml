@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: HanMade Homemade
+title: Hanmade Homemade
 url: "https://www.hanmadehomemade.com.au"
 baseurl:
 google_analytics_key:
@@ -12,9 +12,7 @@ snipcart_key: "YWZlYjA5ZmEtMzJhYy00OWE5LTg3ZTUtYWY2ZjYzYjZlNjAzNjM2NzUyODgwNDk2M
 logo: /siteicon.png
 description: homemade, sustainable, delicious seasonal muesli delivered to your door
 author:
-  name: HanMade Homemade
-  email: hanmade.homemade@hotmail.com
-  phone: "0410 974 684"
+  name: Hanmade Homemade
 social:
   - name: Instagram
     links:
@@ -31,9 +29,13 @@ timezone: Australia/Sydney
 collections:
   staff_members:
     _hide_content: true
+  product_categories:
+    _hide_content: true
   products:
     _hide_content: true
     output: true
+  headlines:
+    _hide_content: true
 
 permalink: pretty
 

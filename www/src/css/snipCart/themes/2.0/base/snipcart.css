@@ -388,7 +388,7 @@ h4,
       border-color: #333; }
   .snip-layout .snip-btn {
     font-weight: 700;
-    background-color: rgba(13, 100, 129, 0.8);
+    background-color: rgba(13, 100, 129, 0.6);
     border-radius: 3px;
     border: 0;
     color: #fff;
@@ -401,7 +401,7 @@ h4,
     padding: 0 1em;
     text-transform: uppercase; }
     .snip-layout .snip-btn:hover {
-      background-color: rgba(8, 64, 83, 0.8); }
+      background-color: rgba(8, 64, 83, 0.6); }
     @media only screen and (min-width: 48em) {
       .snip-layout .snip-btn {
         font-size: 12px;
@@ -411,7 +411,7 @@ h4,
     line-height: normal;
     padding: .417em; }
   .snip-layout .snip-btn--highlight {
-    background: rgba(13, 100, 129, 0.8);
+    background: rgba(13, 100, 129, 0.6);
     color: #fff; }
     .snip-layout .snip-btn--highlight:hover {
       background-color: #e99595; }
@@ -486,10 +486,11 @@ h4,
         padding: 0;
         text-align: center; } }
   .snip-layout .snip-header__user {
-    background: rgba(13, 100, 129, 0.8);
+    background: rgba(13, 100, 129, 0.6);
     font-size: 14px;
     padding: .714em 1.429em;
-    text-align: center; }
+    text-align: center;
+    color: #fff; }
   .snip-layout .snip-header__user-text {
     max-width: 90%;
     overflow: hidden;
@@ -502,7 +503,7 @@ h4,
     white-space: nowrap;
     display: -webkit-box;
     display: flex;
-    background: rgba(13, 100, 129, 0.8);
+    background: rgba(13, 100, 129, 0.6);
     font-size: 14px;
     padding: .714em 1.429em; }
   .snip-layout .snip-header__back--button {
@@ -528,7 +529,7 @@ h4,
         position: absolute;
         text-align: left; } }
   .snip-layout .snip-header__total {
-    background: rgba(13, 100, 129, 0.8);
+    background: rgba(13, 100, 129, 0.6);
     border-radius: 5px;
     display: inline-block;
     padding: .5em; }

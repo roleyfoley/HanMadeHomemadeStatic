@@ -16,6 +16,10 @@
 		<!--<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet">-->
 		<link href="{{site.baseurl }}/css/snipCart/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
 
+		{% if jekyll.environment == 'production' and site.google_verification_key != '' %}
+			<meta name="google-site-verification" content="{{ site.google_verification_key }}" />
+		{% endif %}
+
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
 				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -26,12 +30,17 @@
 		{% endif %}
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-		{% if site.snipcart_key %}
+		{% if site.snipcart_enabled %}
+			{% if jekyll.environment == 'production' %}
+				{% assign snipcart_key = site.snipcart_live_key %}
+			{% else %}
+				{% assign snipcart_key = site.snipcart_test_key %}
+			{% endif %}
 			<script 
 				type="text/javascript"
 				src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" 
 				id="snipcart" 
-				data-api-key="{{ site.snipcart_key }}"
+				data-api-key="{{ snipcart_key }}"
 				></script>
 
 			<script type="text/javascript">
@@ -43,7 +52,7 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/new"><img class="company-logo" src="{% include relative-src.html src="/images/logo/dark_logo_transparent.png" %}" alt="{{ site.title }}"</a></div>
+				<div class="company-name"><a href="{{ site.url }}"><img class="company-logo" src="{% include relative-src.html src="/images/logo/dark_logo_transparent.png" %}" alt="{{ site.title }}"</a></div>
 				{% include navigation.html %}
 			</div>
 

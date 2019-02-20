@@ -9,7 +9,7 @@
 	data-item-image="{{ include.product.styles.first.image }}"
 	data-item-description="{{ include.product.description }}"
 	data-item-custom1-name="Dietary Requirements"
-	data-item-url="{{ include.product.url }}"
+	data-item-url="{{ site.url}}{{ include.product.url }}"
 	data-item-price="{{ include.product.price }}"
 	data-item-shippable={{ include.product.shippable }}
 	{% if include.product.subscription == true %}

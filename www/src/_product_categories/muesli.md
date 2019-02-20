@@ -3,12 +3,13 @@ name: muesli
 ---
 Our Current Blend
 
-#### Summer
+#### Autumn
 
-- Dried cherries
-- Dried peaches
-- Macadamias
-- Flaked coconut
-- Seed mix
-- Vanilla
+- Pears
+- Currants
+- Pecans
+- Coconut Flakes
+- Seed Mix
+- Honey
 - Cinnamon
+- Nutmeg

@@ -12,17 +12,44 @@ layout: default
 						</a>
 					</div>
 				</div>
-				<div class="product-details" id="add">
-					<h3>{{ page.name }}</h3>
-					<h4>{{ page.description }}</h4>
-					
-					{{ page.description_markdown | markdownify }}
+				<div class="product-info">
+					<div class="product-details" id="add">
+						<h3>{{ page.name }}</h3>
+						<h4>{{ page.description }}</h4>
+						
+						{{ page.description_markdown | markdownify }}
 
-					{% assign product_category = site.product_categories | where: "name", page.product_category | first %}
-					{{ product_category.content | markdownify }}
+						{% assign product_category = site.product_categories | where: "name", page.product_category | first %}
+						{{ product_category.content | markdownify }}
 
-					<h4>${{ page.price }} {% if page.subscription %} per month {% endif %}</h4>
-					<div class="button">{% include snipcart-button.html product=page %}</div>
+						
+						{% if page.options != nill %} 
+						<h4>Available Options</H4>
+							<div class="product-options">
+							{% assign productOptions = page.options | split: "|" %}
+							{% for option in productOptions  %}
+								{% assign productOptionDetail = option | split: "[" %}
+								{% assign productOptionModifier = productOptionDetail[1] | remove: "]" %}
+								{% assign productOptionPrice = page.price | plus: productOptionModifier %}
+								{% assign price_split = productOptionPrice | round: 2 | split: "." %}
+								{% assign integral = price_split[0] %}
+								{% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+
+								<div class="product-option">
+									<h4>{{productOptionDetail.first}}</h4>
+									<p></p>${{integral}}.{{fractional}}</p>
+									<div class="button">{% include snipcart-button.html product=page option=option%}</div>
+								</div>
+								{% endfor %}
+							</div>
+						{% else %}
+							<h4>${{ page.price }} {% if page.subscription %} per month {% endif %}</h4>
+							<div class="button">{% include snipcart-button.html product=page %}</div>
+						{% endif %}
+					</div>
+					<div class="nutrition-info">
+						{% include nutritional-info.html product=page %}
+					</div>
 				</div>
 			</div>
 		</div>

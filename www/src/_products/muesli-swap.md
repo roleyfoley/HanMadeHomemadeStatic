@@ -1,14 +1,14 @@
 ---
-name: Seasonal Muesli
+name: Seasonal Muesli Swap
 product_category: muesli
 description_markdown: >-
-  A muesli that ticks all the boxes, taste, nutrition and good at heart. Ingredients are selected to highlight the flavours of the season and source locally to support a thriving community. Whether you sprinkle it on your yoghurt, drown it in milk, spoon it into your smoothie or eat it by the handful, you choose your breakfast adventure.
-price: '12.00'
-options: 450g Bag
-sku: mueslibag
+  The perfect option for the serious muesli lover, 1.5kg of scrumptious seasonal muesli provides a waste conscious way to fulfil your breakfast and snack needs. In an effort to reduce Hanmade Homemade’s environmental footprint, we source organic ingredients from local businesses where possible and refill your order in a reusable container. And better yet, when you're starting to run low, another container of seasonal muesli is only on click away. 
+price: '30.00'
+options: 1.5kg Jar[+10.00]|1.5kg Refill
+sku: muesliswap
 subscription: false
 shippable: true
-image_path: /images/products/muesli/bag.jpg
+image_path: /images/products/muesli/subscription.jpg
 ingredients:
     - Australian Rolled Oats (45%)
     - Organic Pecans (12%)
@@ -26,8 +26,8 @@ warnings:
 ingredient_tag: >-
     Made in Australia with 80% of ingredients sourced in Australia
 nutrition_servings:
-    per_package: 10
-    serving_size: 45g
+    per_package: 33.30
+    serving_size: 45.00g
 nutrition_details:
     energy: 
         serving: 786kJ

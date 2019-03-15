@@ -12,6 +12,14 @@
 	data-item-url="{{ site.url}}{{ include.product.url }}"
 	data-item-price="{{ include.product.price }}"
 	data-item-shippable={{ include.product.shippable }}
+	{% if include.product.options != nill %}
+		data-item-custom2-name="Options"
+		{% if include.option != nill %}
+			data-item-custom2-options="{{include.product.options | prepend: "|" | prepend: include.option | split: "|" | uniq | compact | join: "|" }}"
+		{% else %}
+			data-item-custom2-options="{{include.product.options}}"
+		{% endif %}
+	{% endif %}
 	{% if include.product.subscription == true %}
 		data-item-payment-interval="Month"
 		data-item-payment-interval-count="1"

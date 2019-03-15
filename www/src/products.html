@@ -21,7 +21,7 @@ title: Products
 							<div class="product-description">
 								{{ product.description_markdown | truncate: 90 | markdownify }}
 							</div>
-							<p>${{ product.price }} {% if product.subscription %} per month {% endif %}</p>
+							<p>Starting from ${{ product.price }} {% if product.subscription %} per month {% endif %}</p>
 						</div>
 					</li>
 				{% endfor %}

@@ -1,9 +1,7 @@
 ---
 name: muesli
 ---
-Our Current Blend
-
-#### Autumn
+#### Our Current Blend - Autumn
 
 - Pears
 - Currants

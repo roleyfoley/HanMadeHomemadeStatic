@@ -77,10 +77,6 @@ exclude:
 # -----------
 # CloudCannon
 
-garment_types:
-  - hat
-  - top
-
 social_icons:
   - Email
   - Facebook

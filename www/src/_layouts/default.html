@@ -1,66 +1,20 @@
-<!doctype html>
+---
+layout: base
+---
+<header>
+	<div class="container">
+		<div class="company-name"><a href="{{ site.url }}"><img class="company-logo" src="{% include relative-src.html src="/images/logo/dark_logo_transparent.png" %}" alt="{{ site.title }}"</a></div>
+		{% include navigation.html %}
+	</div>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+{{ content }}
 
-		{% seo %}
-
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
-
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
-
-		{% if jekyll.environment == 'production' and site.google_verification_key != '' %}
-			<meta name="google-site-verification" content="{{ site.google_verification_key }}" />
-		{% endif %}
-
-		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
-			<script>
-				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-				ga('create', '{{ site.google_analytics_key }}', 'auto');
-				ga('send', 'pageview');
-			</script>
-			<script async src='https://www.google-analytics.com/analytics.js'></script>
-		{% endif %}
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-		<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
-		<link href="{{site.baseurl }}/css/snipCart/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
-
-		{% if site.snipcart_enabled %}
-			{% if jekyll.environment == 'production' %}
-				{% assign snipcart_key = site.snipcart_live_key %}
-			{% else %}
-				{% assign snipcart_key = site.snipcart_test_key %}
-			{% endif %}
-			<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ snipcart_key }}"></script>
-			<script type="text/javascript">
-				Snipcart.execute('config', 'show_continue_shopping', true);
-				Snipcart.execute('config', 'allowed_countries', ['AU']);
-			</script>
-		{% endif %}
-	</head>
-	<body>
-		<header>
-			<div class="container">
-				<div class="company-name"><a href="{{ site.url }}"><img class="company-logo" src="{% include relative-src.html src="/images/logo/dark_logo_transparent.png" %}" alt="{{ site.title }}"</a></div>
-				{% include navigation.html %}
-			</div>
-
-		</header>
-		{{ content }}
-
-		{% include footer.html %}
-		<script>
-			document.getElementById("open-nav").onclick = function () {
-				document.body.classList.toggle("nav-open");
-				return false;
-			};
-		</script>
-		<script src="/js/application.js" type="text/javascript"></script>
-	</body>
-</html>
+{% include footer.html %}
+<script>
+	document.getElementById("open-nav").onclick = function () {
+		document.body.classList.toggle("nav-open");
+		return false;
+	};
+</script>
+<script src="/js/application.js" type="text/javascript"></script>

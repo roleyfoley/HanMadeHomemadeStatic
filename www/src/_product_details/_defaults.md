@@ -1,0 +1,34 @@
+---
+name:
+ingredients:
+    -
+    -
+    -
+nutrition_servings:
+    per_package: 
+    serving_size:
+nutrition_details:
+    energy:
+        serving:
+        100g:
+    protein:
+        serving:
+        100g:
+    fat:
+        serving:
+        100g:
+        specifics:
+            saturated:
+                serving:
+                100g:
+    carbohydrate:
+        serving:
+        100g:
+        specifics:
+            sugars:
+                serving:
+                100g:
+    sodium:
+        serving:
+        100g:
+---

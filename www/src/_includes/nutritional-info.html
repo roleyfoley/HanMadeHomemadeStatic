@@ -1,0 +1,48 @@
+
+{%if include.product.ingredients != nill %}
+<div class="product-ingredients">
+    <h4>Ingredients</h4>
+    <ul>
+    {% for ingredient in include.product.ingredients %}
+        <li>{{ ingredient }}</li>
+    {% endfor %}
+    </ul>
+    {%for warning in include.product.warnings %}
+        <p><strong>{{ warning.name | upcase }}: </strong>{{ warning.value }}
+    {% endfor %}
+    <p>{{ include.product.ingredient_tag }}</p>
+</div>
+{% endif %}
+{%if include.product.nutrition_details != nill %}
+<div class="product-nutrition">
+    <h4> Nutritional Information</h4>
+    <p>Servings per package: {{include.product.nutrition_servings.per_package}} <br> Serving Size: {{ include.product.nutrition_servings.serving_size }}</p>
+    <table>
+        <tr>
+            <th colspan="2"></th>
+            <th colspan="2">Average Quantity </th>
+        </tr>
+        <tr>
+            <th colspan="2"></th>
+            <th>Per Serving</th>
+            <th>Per 100g</th>
+        </tr>
+        {% for nutrition_detail in include.product.nutrition_details %}
+        <tr>
+            <td>{{ nutrition_detail[0] | capitalize }}</th>
+            <td></td>
+            <td>{{ nutrition_detail[1].serving }}</td>
+            <td>{{ nutrition_detail[1].perg }}</td>
+        </tr>
+            {% for nutrition_specific in nutrition_detail[1].specifics %}
+            <tr>
+                <td></td>
+                <td> {{ nutrition_specific[0] | capitalize }}</td>
+                <td>{{nutrition_specific[1].serving}}</td>
+                <td>{{nutrition_specific[1].perg}}</td>
+            </tr>
+            {% endfor %}
+        {% endfor %}
+    </table>
+</div>
+{% endif %}

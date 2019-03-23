@@ -110,17 +110,18 @@
 	
 		@media #{$mid-point}, print {
 			@include flex-flow(row);
-			border-style: dashed;
-			border-width: 1px;
-			border-color: #000;
 		}
 
 		@media print {
-			width: 68mm;
-			height: 45mm;
-			font-size: 0.3em;
+			width: 65mm;
+			height: 50mm;
+			font-size: 4pt;
 			margin-top: 0px;
 			vertical-align: middle;
+			border-style: dashed;
+			border-width: 1px;
+			border-color: #000;
+			margin: 0.5mm;
 		}
 		
 		margin-top: 20px;
@@ -133,7 +134,7 @@
 		h4 {
 			color: $brand-color;
 			@media print {
-				font-size: 0.5em;
+				font-size: 6pt;
 			}
 		}
 	
@@ -141,8 +142,9 @@
 			font-size: 0.8em;
 			margin: 5px;
 			@media print {
-				font-size: 0.3em;
+				font-size: 4pt;
 				margin: 2px;
+				list-style: none;
 			}
 		}
 
@@ -150,7 +152,7 @@
 			padding-left: 5px;
 			padding-right: 5px;
 			@media print {
-				font-size: 0.3em;
+				font-size: 4pt;
 				padding-left: 2px;
 				padding-right: 2px;
 			}

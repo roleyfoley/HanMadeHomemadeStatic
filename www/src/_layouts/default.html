@@ -3,7 +3,11 @@ layout: base
 ---
 <header>
 	<div class="container">
-		<div class="company-name"><a href="{{ site.url }}"><img class="company-logo" src="{% include relative-src.html src="/images/logo/dark_logo_transparent.png" %}" alt="{{ site.title }}"</a></div>
+		{% if jekyll.environment == 'production' %}
+			<div class="company-name"><a href="{{ site.url }}"><img class="company-logo" src="{% include relative-src.html src="/images/logo/dark_logo_transparent.png" %}" alt="{{ site.title }}"</a></div>
+		{% else %}
+			<div class="company-name"><div class="warning">Env: {{jekyll.environment}} </div><a href="{{ site.url }}"><img class="company-logo" src="{% include relative-src.html src="/images/logo/dark_logo_transparent.png" %}" alt="{{ site.title }}"</a></div>
+		{% endif %}
 		{% include navigation.html %}
 	</div>
 

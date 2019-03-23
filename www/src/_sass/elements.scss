@@ -5,7 +5,9 @@ html, body {
 
 body {
 	font-family: 'Ubuntu', sans-serif;
-	-webkit-font-smoothing: antialiased;
+	@media print {
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
 }
 
 a {
@@ -61,4 +63,9 @@ p, address, label, ul {
 
 ul {
 	padding-left: 1em;
+}
+
+.warning { 
+	font-size: 1.0em;
+	color: rgb(244, 66, 86);
 }

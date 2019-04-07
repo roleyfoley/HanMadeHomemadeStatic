@@ -93,7 +93,6 @@
 		border-radius: 10px;
 		padding: 20px;
 		margin: 5px;
-
 		text-align: center;
 		width: 250px;
 		
@@ -113,9 +112,9 @@
 		}
 
 		@media print {
+			@include flex-flow(column);
 			width: 65mm;
-			height: 50mm;
-			font-size: 4pt;
+			height: 140cmm;
 			margin-top: 0px;
 			vertical-align: middle;
 			border-style: dashed;
@@ -134,7 +133,7 @@
 		h4 {
 			color: $brand-color;
 			@media print {
-				font-size: 6pt;
+				font-size: 14pt;
 			}
 		}
 	
@@ -142,7 +141,7 @@
 			font-size: 0.8em;
 			margin: 5px;
 			@media print {
-				font-size: 4pt;
+				font-size: 10pt;
 				margin: 2px;
 				list-style: none;
 			}
@@ -152,7 +151,7 @@
 			padding-left: 5px;
 			padding-right: 5px;
 			@media print {
-				font-size: 4pt;
+				font-size: 10pt;
 				padding-left: 2px;
 				padding-right: 2px;
 			}

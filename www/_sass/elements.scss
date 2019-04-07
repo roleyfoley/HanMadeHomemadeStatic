@@ -6,7 +6,7 @@ html, body {
 body {
 	font-family: 'Ubuntu', sans-serif;
 	@media print {
-		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-family: 'Arial Narrow', Arial, sans-serif;
 	}
 }
 
@@ -42,13 +42,13 @@ h2 {
 
 h3 {
 	font-size: 2rem;
-	margin: 20px 0 10px 0;
+	margin: 10px 0 10px 0;
 	color: $font-color-1;
 }
 
 h4 {
 	font-size: 1.4rem;
-
+	margin: 10px 0 10px 0;
 	a {
 		color: $font-color-1;
 	}

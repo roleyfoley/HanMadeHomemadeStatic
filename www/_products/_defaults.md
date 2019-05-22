@@ -5,6 +5,7 @@ description_markdown: >-
 
 price: 
 options: 
+    -
 sku: 
 subscription: false
 shippable: true

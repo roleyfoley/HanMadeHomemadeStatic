@@ -10,8 +10,8 @@ _options:
     expandable: false
 
 _comments:
-  title: nice looking title of the product
-  name: name of the page ( spaces should be dashes )
+  title: name of the page ( short with dashses for spaces)
+  name: The nice name of the product
   product_category: category of the product
   price: base price of the produc ( must be in format of 00.00)
   options: options for the product ( if the price changes add a price modifer +10.00 would add $10 to the price)

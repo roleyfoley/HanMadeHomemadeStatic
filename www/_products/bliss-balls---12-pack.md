@@ -5,7 +5,13 @@ price: '30.00'
 options:
   - name: Coconut Rough
     price_change: 00.00
-sku:
+  - name: Salted Caramel
+    price_change: 00.00
+  - name: Choc Mint
+    price_change: 00.00
+  - name: Choc Orange
+    price_change: 00.00
+sku: blissball_12pack
 subscription: false
 available: true
 image_path: /images/logo/color_logo_transparent.png

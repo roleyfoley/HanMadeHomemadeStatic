@@ -26,8 +26,8 @@ nutrition_servings:
   serving_size: 45g
 nutrition_details:
   energy:
-    serving: 45g
-    perg: 100
+    serving: '906'
+    perg: 2010
   protein:
     serving: 0
     perg: 0

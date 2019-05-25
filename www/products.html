@@ -10,19 +10,18 @@ title: Products
 				{% for product in site.products %}
 					{% if product.available %}
 						<li>
-							<div class="styles">
-								<div class="style">
-									<a href="{{ product.url }}">
-										<img src="{% include relative-src.html src=product.image_path %}">
-									</a>
-								</div>
+							<div class="product-image">
+								<a href="{{ product.url }}">
+									<img src="{% include relative-src.html src=product.image_path %}">
+								</a>
 							</div>
 							<div class="product-details">
 								<h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
 								<div class="product-description">
 									{{ product.description_markdown | truncate: 90 | markdownify }}
 								</div>
-								<p>Starting from ${{ product.price }} {% if product.subscription %} per month {% endif %}</p>
+								{% assign productOptionsSize = product.options.size %}
+								<p>{% if productOptionsSize >= 2 %}Starting from {% endif %}${{ product.price }} {% if product.subscription %} per month {% endif %}</p>
 							</div>
 						</li>
 					{% endif %}

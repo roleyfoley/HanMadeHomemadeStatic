@@ -5,12 +5,8 @@ layout: default
 	<section class="page">
 		<div class="container">
 			<div class="product-container">
-				<div class="styles">
-					<div class="style">
-						<a href="{{ include.page.url }}">
-							<img src="{% include relative-src.html src=page.image_path %}">
-						</a>
-					</div>
+				<div class="product-image">
+					<img src="{% include relative-src.html src=page.image_path %}">
 				</div>
 				<div class="product-info">
 					<div class="product-details" id="add">

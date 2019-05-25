@@ -14,7 +14,7 @@ options:
 sku: blissball_12pack
 subscription: false
 available: true
-image_path: /images/logo/color_logo_transparent.png
+image_path: /images/logo/dark_logo_transparent.png
 ingredients:
   -
 warnings:

@@ -1,55 +1,8 @@
-.styles {
-	width: 100%;
-	position: relative;
-	box-sizing: border-box;
-
-	.style {
-		img {
-			border-radius: 10px;
-		}
-		
-	}
-
-	.style-picker {
-		z-index: 2;
-		display: block;
-		line-height: 0;
-		position: absolute;
-		bottom: 20px;
-		right: 20px;
-
-		> div {
-			width: 20px;
-			height: 20px;
-			border: 1px solid #000;
-			display: inline-block;
-			margin: 0 5px 0 0;
-			border-radius: 20px;
-			cursor: pointer;
-		}
-	}
-
-	> div + div {
-		display: none;
-	}
-
-	i {
-		font-size: 14rem;
-		color: #fff;
-	}
-}
 
 .product-container {
 	@extend %flexbox;
-	@include flex-flow(row);
+	@include flex-flow(column);
 	@include flex-wrap(no-wrap);
-	margin-left: -40px;
-
-	.styles {
-		width: auto;
-		margin-left: 40px;
-		@include flex-basis(100%);
-	}
 
 	@media print {
 		margin: 0;
@@ -57,52 +10,73 @@
 		page-break-inside: avoid;
 		page-break-after: always;
 	}
+
+	@media #{$mid-point} {
+		@include flex-flow(row);
+	}
 	
+	.product-image {
+		@include flex-basis(100%);
+		max-width: 90%;
+
+		position: relative;
+		box-sizing: border-box;
+
+		@media #{$mid-point} {
+			max-width: 30%;
+			padding: 15px;
+		}
+
+		img {
+			border-radius: 10px;
+		}
+	}
+
 	.product-details {
 		flex: 2 1 500px;
 		text-align: left;
-		margin-left: 40px;
+
+		@media #{$mid-point} {
+			padding: 30px;
+		}
 
 		h4 {
 			color: $brand-color;
 		}
-	}
 
-	form {
-		border: 1px solid #444;
-		padding: 20px;
-		border-radius: 2px;
+		.product-options {
+			@extend %flexbox;
+			@include flex-flow(row wrap);
+			@include flex-basis(15%);
+			@include flex-grow(1);
+			@include flex-shrink(1);
+			@include align-items(center);
 
-		label:first-child {
-			margin-top: 0;
 		}
-	}
+	
+		.product-option {
+	
+			background-color: rgba(238, 238, 238, 0.582);
+			border-radius: 10px;
+			padding: 10px;
+			margin: 2px;
+			text-align: center;
+			width: 90%;
+			
+			h4 {
+				color: $font-color-1
+			}
 
-	.product-options {
-		@extend %flexbox;
-		@include flex-flow(column);
-
-		@media #{$mid-point} {
-			@include flex-flow(row);
-		}
-	}
-
-	.product-option {
-
-		background-color: rgba(238, 238, 238, 0.582);
-		border-radius: 10px;
-		padding: 20px;
-		margin: 5px;
-		text-align: center;
-		width: 250px;
-		
-		h4 {
-			color: $font-color-1
+			@media #{$mid-point} {
+				width: 20%;
+				padding: 20px;
+				margin: 5px;
+			}
 		}
 	}
 
 	.nutrition-info {
-
+	
 		@extend %flexbox;
 		@include flex-flow(column);
 		@include justify-content(space-evenly);
@@ -202,6 +176,11 @@
 
 	.product-description p {
 		font-size: 1.1rem;
+	}
+
+	img {
+		border-radius: 10px;
+		max-height: 275px
 	}
 
 	.snipcart-add-item {

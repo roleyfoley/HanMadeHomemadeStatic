@@ -24,32 +24,15 @@ _comments:
 
 _array_structures:
     options:
-        - name: 
-          price_modifier: 00.00
-    nutrition_details:
-        energy: 
-            serving: 0
-            perg: 0
-        protein:
-            serving: 0
-            perg: 0
-        fat, total:
-            serving: 0 
-            perg: 0
-            specifics:
-                saturated: 
-                    serving: 0 
-                    perg: 0
-        carbohydrate:
-            serving: 0 
-            perg: 0
-            specifics: 
-                sugars:
-                    serving: 0
-                    perg: 0
-        sodium:
-            serving: 0
-            perg: 0
+        - label: option
+          value: 
+            name: 
+            price_modifier: 00.00
+    warnings:
+        - label: warning
+          value: 
+            name: 
+            value:
 
 name:
 Title: 

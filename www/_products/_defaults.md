@@ -51,30 +51,30 @@ warnings:
 ingredient_tag: 
 
 nutrition_servings:
-    per_package:
-    serving_size: 
+    per_package: 0
+    serving_size: 0
 nutrition_details:
     energy: 
-        serving:
-        perg: 
+        serving: 0
+        perg: 0
     protein:
-        serving: 
-        perg: 
+        serving: 0
+        perg: 0
     fat, total:
-        serving: 
-        perg: 
+        serving: 0
+        perg: 0
         specifics:
             saturated:
-                serving: 
-                perg: 
+                serving: 0
+                perg: 0
     carbohydrate:
-        serving: 
-        perg: 
+        serving: 0
+        perg: 0
         specifics:
             sugars:
-                serving: 
-                perg: 
+                serving: 0
+                perg: 0
     sodium:
-        serving: 
-        perg: 
+        serving: 0
+        perg: 0
 ---

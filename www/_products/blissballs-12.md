@@ -47,7 +47,7 @@ options:
     price_modifier: 00.00
 sku: blissballs-12
 subscription: false
-available: true
+available: false
 image_path: /images/logo/dark_logo_transparent.png
 ingredients:
   -

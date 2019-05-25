@@ -36,8 +36,8 @@ nutrition_details:
     perg: 31.5
     specifics:
       saturated:
-        serving: 0
-        perg: 0
+        serving: 6.3
+        perg: '14.0'
   carbohydrate:
     serving: 0
     perg: 0

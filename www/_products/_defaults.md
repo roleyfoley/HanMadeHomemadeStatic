@@ -1,7 +1,7 @@
 ---
 
 _options:
-  image_path: # Front matter field
+  image_path:
     uploads_dir: "/images/products/:product_category/:sku"
     width: 1000
     height: 1000

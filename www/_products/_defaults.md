@@ -15,7 +15,7 @@ _comments:
   product_category: category of the product
   price: base price of the product ( must be in format of 00.00)
   options: options for the product ( if the price changes add a price modifier +10.00 would add $10 to the price)
-  sku: an id that will be used in your inventory reports ( name is probably good )
+  sku: an id that will be used in your inventory reports ( title is probably good )
   subscription: is the item is bought as a recurring purchase
   available: is the item available for sale ( will be removed from the site )
   ingredients: a list of ingredients for the product

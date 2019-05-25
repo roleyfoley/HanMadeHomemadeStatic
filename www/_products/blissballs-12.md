@@ -46,8 +46,8 @@ nutrition_details:
         serving: 14.6
         perg: 32.3
   sodium:
-    serving: 0
-    perg: 0
+    serving: 110
+    perg: 245
 _options:
   image_path:
     uploads_dir: '/images/products/:title'

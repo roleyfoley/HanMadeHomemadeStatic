@@ -46,7 +46,7 @@ nutrition_details:
 
 _options:
   image_path:
-    uploads_dir: "/images/products/:product_category/:sku"
+    uploads_dir: "/images/products/:title"
     width: 1000
     height: 1000
     resize_style: "contain"

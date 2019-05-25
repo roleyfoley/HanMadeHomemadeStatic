@@ -14,14 +14,14 @@ _array_structures:
 
 _options:
   wide_image_path:
-    uploads_dir: "/images/headlines/:name"
+    uploads_dir: "/images/headlines/:title"
     width: 1500
     height: 1000
     resize_style: "contain"
     mime_type: "image/jpeg"
     expandable: false
   tall_image_path:
-    uploads_dir: "/images/products/:name"
+    uploads_dir: "/images/products/:title"
     width: 1000
     height: 1500
     resize_style: "contain"

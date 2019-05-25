@@ -5,7 +5,7 @@ image_path:
 
 _options:
   image_path:
-    uploads_dir: "/images/staff/:name"
+    uploads_dir: "/images/:title"
     width: 800
     height: 800
     resize_style: "contain"

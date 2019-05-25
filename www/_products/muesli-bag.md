@@ -12,7 +12,7 @@ options:
 sku: mueslibag
 subscription: false
 available: true
-image_path: /images/products/muesli/bag.jpg
+image_path: /images/products/muesli-bag.jpg
 
 ingredients:
     - Australian Rolled Oats (45%)

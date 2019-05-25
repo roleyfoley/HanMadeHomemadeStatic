@@ -14,7 +14,7 @@ options:
 sku: muesliswap
 subscription: false
 available: true
-image_path: /images/products/muesli/subscription.jpg
+image_path: /images/products/muesli-swap.jpg
 
 ingredients:
     - Australian Rolled Oats (45%)

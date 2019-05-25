@@ -1,7 +1,11 @@
 ---
-name: Seasonal Muesli Swap
+name: museli-swap
+title: Seasonal Muesli Swap
 product_category: muesli
+product_description: |
+    The perfect option for the serious muesli lover
 
+    1.5kg of scrumptious seasonal muesli provides a waste conscious way to fulfil your breakfast and snack needs. In an effort to reduce Hanmade Homemade’s environmental footprint, we source organic ingredients from local businesses where possible and refill your order in a reusable container. And better yet, when you're starting to run low, another container of seasonal muesli is only on click away.
 price: '30.00'
 options: 
     - name: 1.5kg Jar
@@ -57,7 +61,3 @@ nutrition_details:
         serving: 5mg
         perg: 12mg
 ---
-
-The perfect option for the serious muesli lover
-
-1.5kg of scrumptious seasonal muesli provides a waste conscious way to fulfil your breakfast and snack needs. In an effort to reduce Hanmade Homemade’s environmental footprint, we source organic ingredients from local businesses where possible and refill your order in a reusable container. And better yet, when you're starting to run low, another container of seasonal muesli is only on click away.

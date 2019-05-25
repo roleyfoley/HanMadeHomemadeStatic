@@ -35,9 +35,9 @@ collections:
   staff_members:
     _hide_content: false
   product_categories:
-    _hide_content: false
+    _hide_content: true
   products:
-    _hide_content: false
+    _hide_content: true
     output: true
   headlines:
     _hide_content: false

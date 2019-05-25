@@ -1,7 +1,11 @@
 ---
-name: Seasonal Muesli
+name: museli-bag
+title: Seasonal Muesli
 product_category: muesli
+product_description: |
+    A muesli that ticks all the boxes, taste, nutrition and good at heart
 
+    Ingredients are selected to highlight the flavours of the season and source locally to support a thriving community. Whether you sprinkle it on your yoghurt, drown it in milk, spoon it into your smoothie or eat it by the handful, you choose your breakfast adventure.
 price: '12.00'
 options: 
     - name: 450g Bag
@@ -55,7 +59,3 @@ nutrition_details:
         serving: 5mg
         perg: 12mg
 ---
-
-A muesli that ticks all the boxes, taste, nutrition and good at heart
-
-Ingredients are selected to highlight the flavours of the season and source locally to support a thriving community. Whether you sprinkle it on your yoghurt, drown it in milk, spoon it into your smoothie or eat it by the handful, you choose your breakfast adventure.

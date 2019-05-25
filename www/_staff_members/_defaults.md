@@ -1,4 +1,7 @@
 ---
+name:
+position:
+image_path:
 
 _options:
   image_path:
@@ -8,8 +11,4 @@ _options:
     resize_style: "contain"
     mime_type: "image/jpeg"
     expandable: false
-
-name:
-position:
-image_path:
 ---

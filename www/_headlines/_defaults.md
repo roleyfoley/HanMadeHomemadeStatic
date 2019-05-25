@@ -1,4 +1,6 @@
 ---
+image:
+
 _array_structures:
     image:
         - label: wide image
@@ -25,6 +27,4 @@ _options:
     resize_style: "contain"
     mime_type: "image/jpeg"
     expandable: false
-
-image:
 ---

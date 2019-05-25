@@ -1,6 +1,5 @@
 ---
-name: museli-swap
-title: Seasonal Muesli Swap
+name: Seasonal Muesli Swap
 product_category: muesli
 product_description: |
     The perfect option for the serious muesli lover

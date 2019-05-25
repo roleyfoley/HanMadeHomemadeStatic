@@ -1,6 +1,5 @@
 ---
-name: museli-bag
-title: Seasonal Muesli
+name: Seasonal Muesli
 product_category: muesli
 product_description: |
     A muesli that ticks all the boxes, taste, nutrition and good at heart

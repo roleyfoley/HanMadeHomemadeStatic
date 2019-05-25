@@ -22,14 +22,43 @@ _comments:
   warnings: any ingredient warnings that might be required
   ingredient_tag: extra info that would be added to the ingredient details
 
+_array_structures:
+    options:
+        - name: 
+        - price_modifer: 00.00
+    nutrition_details:
+        energy: 
+            serving: 0
+            perg: 0
+        protein:
+            serving: 0
+            perg: 0
+        fat, total:
+            serving: 0 
+            perg: 0
+            specifics:
+                saturated: 
+                    serving: 0 
+                    perg: 0
+        carbohydrate:
+            serving: 0 
+            perg: 0
+            specifics: 
+                sugars:
+                    serving: 0
+                    perg: 0
+        sodium:
+            serving: 0
+            perg: 0
+
 name:
-title: 
+Title: 
 product_category:
 
-price: 00.00
+price: 
 options: 
     - name: 
-      price_modifier: 00.00
+      price_modifier: 
 sku: 
 subscription: false
 available: true
@@ -40,7 +69,7 @@ ingredients:
 warnings:
     - name: 
       value: 
-ingredient_tag: Made in Australia with <percent>% of ingredients sourced in Australia
+ingredient_tag: 
 
 nutrition_servings:
     per_package:

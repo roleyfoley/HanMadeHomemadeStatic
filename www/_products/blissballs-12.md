@@ -32,8 +32,8 @@ nutrition_details:
     serving: 3.6
     perg: 8.1
   'fat, total':
-    serving: 0
-    perg: 0
+    serving: 14.2
+    perg: 31.5
     specifics:
       saturated:
         serving: 0

@@ -3,16 +3,19 @@
 	@extend %flexbox;
 	@include flex-flow(column);
 	@include flex-wrap(no-wrap);
-
-	@media print {
-		margin: 0;
-		@include flex-wrap(wrap);
-		page-break-inside: avoid;
-		page-break-after: always;
-	}
+	@include align-items(center);
 
 	@media #{$mid-point} {
 		@include flex-flow(row);
+		@include align-items(flex-start);
+	}
+	
+	.product-name { 
+		text-align: center;
+
+		@media #{$mid-point} {
+			text-align: left;
+		}
 	}
 	
 	.product-image {
@@ -42,6 +45,11 @@
 
 		h4 {
 			color: $brand-color;
+			text-align: center;
+
+			@media #{$mid-point} {
+				text-align: left
+			}
 		}
 
 		.product-options {
@@ -64,7 +72,7 @@
 			width: 90%;
 			
 			h4 {
-				color: $font-color-1
+				color: $font-color-1;
 			}
 
 			@media #{$mid-point} {
@@ -73,83 +81,65 @@
 				margin: 5px;
 			}
 		}
+	}	
+}
+
+.nutrition-info {
+	
+	@extend %flexbox;
+	@include flex-flow(column nowrap );
+	@include justify-content(space-evenly);
+
+	@media #{$mid-point} {
+		@include flex-flow(row nowrap);
 	}
 
-	.nutrition-info {
-	
-		@extend %flexbox;
-		@include flex-flow(column);
-		@include justify-content(space-evenly);
-	
-		@media #{$mid-point}, print {
-			@include flex-flow(row);
-		}
+	margin-top: 20px;
 
-		@media print {
-			@include flex-flow(column);
-			width: 65mm;
-			height: 140cmm;
-			margin-top: 0px;
-			vertical-align: middle;
-			border-style: dashed;
-			border-width: 1px;
-			border-color: #000;
-			margin: 0.5mm;
-		}
-		
-		margin-top: 20px;
+	border-top-style: solid;
+	border-width: 1px, 0, 0, 0;
+	border-top-color: $font-color-1;
 	
-		border-top-style: solid;
-		border-width: 1px, 0, 0, 0;
-		border-top-color: $font-color-1;
-		
-		padding: 10px;
-		h4 {
-			color: $brand-color;
-			@media print {
-				font-size: 14pt;
-			}
-		}
-	
-		p, table, ul {
-			font-size: 0.8em;
-			margin: 5px;
-			@media print {
-				font-size: 10pt;
-				margin: 2px;
-				list-style: none;
-			}
-		}
-
-		td, th {
-			padding-left: 5px;
-			padding-right: 5px;
-			@media print {
-				font-size: 10pt;
-				padding-left: 2px;
-				padding-right: 2px;
-			}
-		}
-	
-		table {
-			text-align: right;
-		}
-	
-		div {
-			width: 90%;
-			margin: 15px;
-			@media print {
-				margin: 2px;
-			}
-		}
+	padding: 10px;
+	h4 {
+		color: $brand-color;
 	}
-	
+
+	p, table, ul {
+		font-size: 0.8em;
+		margin: 5px;
+	}
+
+	td, th {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	table {
+		text-align: right;
+	}
+
+	div {
+		width: 90%;
+		margin: 15px;
+	}
 }
 
 .product-list {
-	display: flex;
-	flex-flow: wrap;
+	@extend %flexbox;
+	@include flex-flow(row wrap);
+	@include align-items(flex-end);
+	@include justify-content(flex-end);
+	@include flex(1, 1, 30%);
+	@include align-content(center);
+	
 	margin: 0 -20px;
+
+	.product {
+		@extend %flexbox;
+		@include flex-flow(column nowrap);
+		@include align-items(center);
+	}
 
 	&, > li {
 		list-style: none;
@@ -166,7 +156,6 @@
 
 	h4 {
 		margin: 10px 0 0 0;
-		padding-right: 100px;
 	}
 
 	p {

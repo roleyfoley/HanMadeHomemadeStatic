@@ -3,16 +3,16 @@ title: Labels
 layout: base
 ---
 <div class="content">
-    <section class="page">
-        {% for product in site.products %}
-            <p>{{product.sku}}</p>
-            <div class="product-container">
-                {% for i in (1..8) %}
+    {% for product in site.products %}
+        <p>{{product.sku}}</p>
+        <div class="label-sheet" >
+            {% for i in (1..8) %}
+            <div class="label">
                 <div class="nutrition-info">
                 {% include nutritional-info.html product=product %}
                 </div>
-                {% endfor %}
             </div>
-        {% endfor %}
-    </section> 
+            {% endfor %}
+        </div>
+    {% endfor %}
 </div>

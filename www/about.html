@@ -6,15 +6,13 @@ title: About Us
 	<h3 class="center-text">The Team</h3>
 	<ul class="staff">
 		{% for person in site.staff_members %}
-			<li>
-				<div class="staff-member">
-					<div class="staff-intro">
-							<div class="staff-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-							<div class="name">{{ person.name }}</div>
-					</div>
-					<div class="staff-detail"> 
-						<div class="blurb">{{person.content | markdownify }}</div>
-					</div>
+			<li class="staff-member">
+				<div class="staff-intro">
+						<div class="staff-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
+						<div class="staff-name">{{ person.name }}</div>
+				</div>
+				<div class="staff-detail">
+					{{person.content | markdownify }}
 				</div>
 			</li>
 		{% endfor %}

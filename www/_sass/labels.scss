@@ -1,0 +1,52 @@
+.label-sheet {
+	@extend %flexbox;
+    @include flex-flow(row wrap);
+    @include align-items(flex-end);
+
+    margin: 0.5mm;
+
+    page-break-inside: avoid;
+    page-break-after: always;
+
+    .label {
+        @include flex( 0, 0, auto);
+
+
+        h4 {
+            font-size: 1.2em;
+            margin-top: 1mm;
+        }
+        
+        .nutrition-info {
+            @include flex-flow(column nowrap);
+            @include justify-content(center);
+            @include align-content(space-around);
+
+            padding: 1mm;
+            div {
+                margin: 1mm;
+                width: 90%;
+            }
+
+            th {
+                text-align: center;
+            }
+            th, table, p, tr {
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        width: 65mm;
+        height: 160mm;
+
+        padding: 1mm;
+        
+        vertical-align: middle;
+        border-style: dashed;
+        border-width: 1px;
+        border-color: #000;
+        
+    }
+}
+ 

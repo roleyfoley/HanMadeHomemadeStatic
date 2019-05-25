@@ -1,59 +1,26 @@
 
-.staff-image {
-	margin: 25px auto 0 auto;
-	background-repeat: no-repeat;
-	background-size: contain;
-	border-radius: 5px;
-	width: 150px;
-	height: 150px;	
-}
+
 
 .staff {
+	@extend %flexbox;
+	@include flex-flow(column wrap);
+	@include align-items(center);
+	@include align-content(center);
+
+	@media #{$mid-point} {
+		@include align-items(flex-start);
+	}
+
 	padding: 0;
 	list-style: none;
-	@extend %flexbox;
-	@include flex-flow(wrap);
-	text-align: left;
-	justify-content: center;
 
 	li {
 		padding: 5px 5px;
-		flex: 1 1 900px;
 		margin: 0 5px;
 
 		@media #{$mid-point} {
 			padding: 30px 20px;
-			flex: 1 1 900px;
 			margin: 0 60px;	
-		}
-	}
-
-	.square-image {
-		height: 300px;
-		width: 300px;
-		border-radius: 10px;
-		background-size: contain;
-		background-repeat: no-repeat;
-	
-		@media #{$mid-point} {
-			height: 400px;
-			width: 400px;
-		}
-	}
-
-	.name {
-		font-size: 1.2rem;
-		margin-top: 20px;
-	}
-
-	.position {
-		font-size: 1.3rem;
-		color: #666;
-	}
-
-	.blurb  {
-		p {
-			font-size: 0.9rem;
 		}
 	}
 
@@ -67,12 +34,33 @@
 		}
 	}
 
-	.staff-detail { 
-		padding: 10px;
+	.staff-image {
+		margin: 25px auto 0 auto;
+		background-repeat: no-repeat;
+		background-size: contain;
+		border-radius: 5px;
+		height: 200px;
+		width: 200px;
 
 		@media #{$mid-point} {
+			height: 300px;
+			width: 300px;
+		}
+	}
+
+	.staff-name {
+		font-size: 1.2rem;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.staff-detail { 
+		padding: 10px;
+		p {
+			font-size: 0.9rem;
+		}
+		@media #{$mid-point} {
 			padding: 20px;
-			max-width: 80%;
 		}
 	}
 }

@@ -21,28 +21,28 @@ nutrition_servings:
     serving_size: 0
 nutrition_details:
     energy: 
-        serving: 0
-        perg: 0
+        serving: 0kJ
+        perg: 0kJ
     protein:
-        serving: 0
-        perg: 0
+        serving: 0g
+        perg: 0g
     fat, total:
-        serving: 0
-        perg: 0
+        serving: 0g
+        perg: 0g
         specifics:
             saturated:
-                serving: 0
-                perg: 0
+                serving: 0g
+                perg: 0g
     carbohydrate:
-        serving: 0
-        perg: 0
+        serving: 0g
+        perg: 0g
         specifics:
             sugars:
-                serving: 0
-                perg: 0
+                serving: 0g
+                perg: 0g
     sodium:
-        serving: 0
-        perg: 0
+        serving: 0mg
+        perg: 0mg
 
 _options:
   image_path:

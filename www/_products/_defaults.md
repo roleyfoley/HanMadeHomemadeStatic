@@ -25,7 +25,7 @@ _comments:
 _array_structures:
     options:
         - name: 
-          price_modifer: 00.00
+          price_modifier: 00.00
     nutrition_details:
         energy: 
             serving: 0

@@ -81,4 +81,3 @@ _array_structures:
         name:
         value:
 ---
-

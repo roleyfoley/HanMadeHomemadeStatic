@@ -12,10 +12,10 @@ layout: default
 					<div class="product-details" id="add">
 						<h3>{{ page.name }}</h3>
 						
-						{{ page.product_description | markdownify }}
+						{{ page.content | markdownify }}
 
 						{% assign product_category = site.product_categories | where: "name", page.product_category | first %}
-						{{ product_category.category_description | markdownify }}
+						{{ product_category.content | markdownify }}
 
 						{% assign options_size = page.options | size %}
 						{% if options_size >= 1 %} 

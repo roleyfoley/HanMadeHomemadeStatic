@@ -22,12 +22,12 @@ warnings:
     value: peanuts
 ingredient_tag: Made in Australia with 0% of ingredients sourced in Australia
 nutrition_servings:
-  per_package: 0
-  serving_size: 0
+  per_package: 12
+  serving_size: 45g
 nutrition_details:
   energy:
-    serving: 0
-    perg: 0
+    serving: 45g
+    perg: 100
   protein:
     serving: 0
     perg: 0
@@ -81,3 +81,4 @@ _array_structures:
         name:
         value:
 ---
+

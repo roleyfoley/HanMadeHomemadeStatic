@@ -40,8 +40,6 @@ product_category:
 
 price: 
 options: 
-    - name: 
-      price_modifier: 
 sku: 
 subscription: false
 available: true
@@ -50,8 +48,6 @@ image_path: /images/logo/dark_logo_transparent.png
 ingredients:
     - 
 warnings:
-    - name: 
-      value: 
 ingredient_tag: 
 
 nutrition_servings:

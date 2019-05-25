@@ -29,8 +29,8 @@ nutrition_details:
     serving: '906'
     perg: 2010
   protein:
-    serving: 0
-    perg: 0
+    serving: 3.6
+    perg: 8.1
   'fat, total':
     serving: 0
     perg: 0

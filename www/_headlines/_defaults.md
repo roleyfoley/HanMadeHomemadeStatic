@@ -1,5 +1,4 @@
 ---
 image_path:
-image_direction: wide
-blurb:
+image_direction: wide|tall
 ---

@@ -17,28 +17,28 @@ layout: default
 						<h3>{{ page.name }}</h3>
 						<h4>{{ page.description }}</h4>
 						
-						{{ page.description_markdown | markdownify }}
+						{{ page.content | markdownify }}
 
 						{% assign product_category = site.product_categories | where: "name", page.product_category | first %}
 						{{ product_category.content | markdownify }}
 
 						
-						{% if page.options != nill %} 
-						<h4>Available Options</H4>
+						{% assign options_size = page.options | size %}
+						{% if options_size >= 1 %} 
+							<h4>Available Options</H4>
 							<div class="product-options">
-							{% assign productOptions = page.options | split: "|" %}
-							{% for option in productOptions  %}
-								{% assign productOptionDetail = option | split: "[" %}
-								{% assign productOptionModifier = productOptionDetail[1] | remove: "]" %}
+							{% for option in page.options  %}
+								{% assign productOptionDetail = option.name %}
+								{% assign productOptionModifier = option.price_modifier %}
 								{% assign productOptionPrice = page.price | plus: productOptionModifier %}
+
 								{% assign price_split = productOptionPrice | round: 2 | split: "." %}
 								{% assign integral = price_split[0] %}
 								{% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
-
 								<div class="product-option">
-									<h4>{{productOptionDetail.first}}</h4>
+									<h4>{{productOptionDetail}}</h4>
 									<p></p>${{integral}}.{{fractional}}</p>
-									<div class="button">{% include snipcart-button.html product=page option=option%}</div>
+									<div class="button">{% include snipcart-button.html product=page option=option %}</div>
 								</div>
 								{% endfor %}
 							</div>

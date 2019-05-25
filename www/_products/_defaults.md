@@ -1,22 +1,23 @@
 ---
 name: 
 product_category:
-description_markdown: >-
 
-price: 
+price: 00.00
 options: 
-    -
+    - name: 
+      price_change: 00.00
 sku: 
 subscription: false
-shippable: true
-image_path: 
+available: true
+image_path: images/logo/color_logo_transparent.png
+
 ingredients:
     - 
 warnings:
     - name: 
       value: 
-ingredient_tag: >-
-    
+ingredient_tag: Made in Australia with <percent>% of ingredients sourced in Australia
+
 nutrition_servings:
     per_package:
     serving_size: 

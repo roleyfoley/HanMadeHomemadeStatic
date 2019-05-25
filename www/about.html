@@ -13,7 +13,7 @@ title: About Us
 							<div class="name">{{ person.name }}</div>
 					</div>
 					<div class="staff-detail"> 
-						<div class="blurb">{{person.blurb}}</div>
+						<div class="blurb">{{person.content | markdownify }}</div>
 					</div>
 				</div>
 			</li>

@@ -4,9 +4,11 @@
 title: Hanmade Homemade
 url: "https://www.hanmadehomemade.com.au"
 baseurl:
+
 google_analytics_key:
 google_maps_javascript_api_key:
 google_verification_key: t6AHC3G7zaLa-Ec7X2iMhxEI32ho4Qq8H9amUgpOGOE
+
 snipcart_enabled: true
 snipcart_test_key: "YWZlYjA5ZmEtMzJhYy00OWE5LTg3ZTUtYWY2ZjYzYjZlNjAzNjM2NzUyODgwNDk2MTUxOTQ0"
 snipcart_live_key: "ZjBhYTljZmMtMmI2OC00ZDcxLTgxYWUtMjI0ZmVkNWFjN2Y0NjM2NzUyODgwNDk2MTUxOTQ0"
@@ -31,14 +33,14 @@ timezone: Australia/Sydney
 
 collections:
   staff_members:
-    _hide_content: true
+    _hide_content: false
   product_categories:
-    _hide_content: true
+    _hide_content: false
   products:
-    _hide_content: true
+    _hide_content: false
     output: true
   headlines:
-    _hide_content: true
+    _hide_content: false
 
 permalink: pretty
 

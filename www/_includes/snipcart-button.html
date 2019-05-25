@@ -11,19 +11,40 @@
 	data-item-custom1-name="Dietary Requirements"
 	data-item-url="{{ site.url}}{{ include.product.url }}"
 	data-item-price="{{ include.product.price }}"
-	data-item-shippable={{ include.product.shippable }}
+	data-item-shippable={{ include.product.available }}
+	{% assign product_options = '' | split: '' %}
+	{% for option in include.product.options %}
+		{% if option.price_modifier > 0 %}
+			{% assign price_modifier = "+" | append: option.price_modifier %}
+		{% elsif option.price_modifier < 0 %}
+			{% assign price_modifier = "-" | append: option.price_modifier %}
+		{% else %}
+			{% assign price_modifier = option.price_modifier %}
+		{% endif %}
+		{% assign option_string = option.name | append: "[" | append: price_modifier | append: "]," | split: "," %}
+		{% assign product_options = product_options | concat: option_string  %}
+	{% endfor %}
+	{% assign product_options = product_options | join: "|" %}
 	{% if include.product.options != nill %}
 		data-item-custom2-name="Options"
 		{% if include.option != nill %}
-			data-item-custom2-options="{{include.product.options | prepend: "|" | prepend: include.option | split: "|" | uniq | compact | join: "|" }}"
+			{% if include.option.price_modifier > 0 %}
+				{% assign first_price_modifier = "+" | append: include.option.price_modifier %}
+			{% elsif include.option.price_modifier < 0 %}
+				{% assign first_price_modifier = "-" | append: include.option.price_modifier %}
+			{% else %}
+				{% assign first_price_modifier = include.option.price_modifier %}
+			{% endif %}
+			{% assign first_option = include.option.name | append: "[" | append: first_price_modifier | append: "]" %}
+			data-item-custom2-options="{{product_options | prepend: "|" | prepend: first_option | split: "|" | uniq | compact | join: "|" }}"
 		{% else %}
-			data-item-custom2-options="{{include.product.options}}"
+			data-item-custom2-options="{{product_options}}"
 		{% endif %}
 	{% endif %}
 	{% if include.product.subscription == true %}
 		data-item-payment-interval="Month"
 		data-item-payment-interval-count="1"
-		{%if include.product.shippable == true %}
+		{%if include.product.available == true %}
 			data-item-recurring-shipping=true
 		{% endif %}
 	{% endif %}>

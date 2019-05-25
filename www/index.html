@@ -10,7 +10,7 @@ title: Hanmade Homemade
 			{% if thecycle == 'odd' %}
 				<div class="headline img-first">
 					<div class="headline-blurb">
-						<div class="blurb">{{headline.blurb}}</div>
+						<div class="blurb">{{headline.content}}</div>
 					</div>
 					<div class="headline-image">
 						<div class="{{headline.image_direction}}" style="background-image: url({% include relative-src.html src=headline.image_path %})"></div>
@@ -19,7 +19,7 @@ title: Hanmade Homemade
 			{% else %}
 				<div class="headline img-second">
 					<div class="headline-blurb">
-							<div class="blurb">{{headline.blurb}}</div>
+							<div class="blurb">{{headline.content}}</div>
 					</div>
 					<div class="headline-image">
 						<div class="{{headline.image_direction}}" style="background-image: url({% include relative-src.html src=headline.image_path %})"></div>

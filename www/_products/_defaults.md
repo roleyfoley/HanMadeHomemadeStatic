@@ -48,7 +48,9 @@ image_path: /images/logo/dark_logo_transparent.png
 ingredients:
     - 
 warnings:
-ingredient_tag: 
+    - name: May contain traces
+      value: peanuts
+ingredient_tag: Made in Australia with 0% of ingredients sourced in Australia
 
 nutrition_servings:
     per_package: 0

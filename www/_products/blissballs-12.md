@@ -14,7 +14,7 @@ options:
 sku: blissballs-12
 subscription: false
 available: false
-image_path: /images/logo/dark_logo_transparent.png
+image_path: '/images/products/:product_category/:sku/2018-12-13-hanmade-2482.jpg'
 ingredients:
   -
 warnings:
@@ -48,7 +48,6 @@ nutrition_details:
   sodium:
     serving: 0
     perg: 0
-
 _options:
   image_path:
     uploads_dir: '/images/products/:product_category/:sku'

@@ -4,11 +4,11 @@ name: muesli
 
 #### Our Current Blend - Autumn
 
-- Pears
-- Currants
-- Pecans
-- Coconut Flakes
-- Seed Mix
-- Honey
-- Cinnamon
-- Nutmeg
+* Apples
+* Dates
+* Walnuts
+* Coconut Flakes
+* Seed Mix
+* Honey
+* Cinnamon
+* Ginger

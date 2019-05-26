@@ -32,28 +32,28 @@ nutrition_servings:
   serving_size: 45g
 nutrition_details:
   energy:
-    serving: 786kJ
-    perg: 1750kJ
+    serving: 813kJ
+    perg: 1810kJ
   protein:
-    serving: 4.1g
-    perg: 9.0g
+    serving: 4.4g
+    perg: 9.8g
   'fat, total':
-    serving: 9.1g
-    perg: 20.1g
+    serving: 9.2g
+    perg: 20.4g
     specifics:
       saturated:
-        serving: 1.8g
-        perg: 4.1g
+        serving: 1.9g
+        perg: 4.2g
   carbohydrate:
-    serving: 20.8g
-    perg: 46.2g
+    serving: 21.6g
+    perg: 47.9g
     specifics:
       sugars:
-        serving: 8.3g
-        perg: 18.4g
+        serving: 8.6g
+        perg: 19.2g
   sodium:
-    serving: 5mg
-    perg: 12mg
+    serving: 8mg
+    perg: 17mg
 ---
 
 A muesli that ticks all the boxes, taste, nutrition and good at heart

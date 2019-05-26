@@ -16,7 +16,12 @@ subscription: false
 available: false
 image_path: /images/products/2018-12-13-hanmade-2482.jpg
 ingredients:
-  -
+  - Dried Dates (44%)
+  - Cashews/Almonds (37.5%)
+  - Desiccated Coconut (8.5%)
+  - Coconut Oil (8%)
+  - Maca/Cacao Powder (2%)
+  - Sea Salt/Flavouring (0.6%)
 warnings:
   - name: May contain traces
     value: peanuts

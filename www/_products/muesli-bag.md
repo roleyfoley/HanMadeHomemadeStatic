@@ -23,9 +23,9 @@ ingredients:
   - Ginger (0.06%)
 warnings:
   - name: contains
-    value: 'Wheat, oats, sesame seeds, tree nuts'
+    value: 'Wheat, oats, seeds, tree nuts'
   - name: May contain traces
-    value: peanuts
+    value: 'peanuts, sesame seeds'
 ingredient_tag: Made in Australia with 80% of ingredients sourced in Australia
 nutrition_servings:
   per_package: 10

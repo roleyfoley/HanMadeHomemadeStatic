@@ -13,7 +13,7 @@ options:
     price_modifier: 00.00
 sku: blissball-12
 subscription: false
-available: false
+available: true
 image_path: /images/products/2018-12-13-hanmade-2482.jpg
 ingredients:
   - Dried Dates (44%)

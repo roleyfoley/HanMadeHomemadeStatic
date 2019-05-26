@@ -20,7 +20,7 @@ ingredients:
 warnings:
   - name: May contain traces
     value: peanuts
-ingredient_tag: Made in Australia with 0% of ingredients sourced in Australia
+ingredient_tag: Made in Australia with 80% of ingredients sourced in Australia
 nutrition_servings:
   per_package: 12
   serving_size: 45g
@@ -81,3 +81,4 @@ _array_structures:
         name:
         value:
 ---
+

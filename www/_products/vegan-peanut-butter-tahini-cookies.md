@@ -8,14 +8,14 @@ subscription: false
 available: true
 image_path: /images/logo/color_logo_with_background.png
 ingredients:
-  - Peanut Butter
-  - Plain Wholewheat Flour
-  - Maple Syrup
-  - Coconut Oil
-  - Hulled Tahini
-  - Sea Salt
-  - Baking Powder
-  - Ground Cinnamon
+  - Peanut Butter (33%)
+  - Plain Wholewheat Flour (31%)
+  - Maple Syrup (16%)
+  - Coconut Oil (10%)
+  - Hulled Tahini (8%)
+  - Sea Salt (0.6%)
+  - Baking Powder (0.5%)
+  - Ground Cinnamon (0.5%)
 warnings:
   - name: Contains
     value: 'Peanuts, Sesame Seeds & Gluten'

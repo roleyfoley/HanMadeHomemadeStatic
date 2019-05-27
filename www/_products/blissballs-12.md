@@ -89,3 +89,18 @@ _array_structures:
         value:
 ---
 
+**Coconut Rough**
+
+Dried Dates, Almonds, Cacao Powder, Coconut, Coconut Oil & Coconut Essence
+
+**Salted Caramel**
+
+Dried Dates, Dry Roasted Cashews, Maca Powder, Coconut, Coconut Oil & Sea Salt
+
+**Choc Orange**
+
+Dried Dates, Almonds, Cacao Powder, Coconut, Coconut Oil & doTerra Wild Orange Oil
+
+**Choc Mint**
+
+Dried Dates, Almonds, Cacao Powder, Coconut, Coconut Oil & doTerra Peppermint Oil

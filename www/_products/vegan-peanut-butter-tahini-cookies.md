@@ -1,7 +1,7 @@
 ---
 name: Vegan Peanut Butter Tahini Cookies- 12 Pack
 product_category: snacks
-price: $20.00
+price: '20.00'
 options: []
 sku: peanutbuttertahinicookies-12
 subscription: false

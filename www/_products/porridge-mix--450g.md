@@ -22,7 +22,7 @@ warnings:
   - name: May contain traces
     value: peanuts
   - name: Contains
-    value: 'Wheat, Oats, Tree Nuts, Seeds'
+    value: 'Wheat, Oats, Tree Nuts, Sesame Seeds'
 ingredient_tag: Made in Australia with 80% of ingredients sourced in Australia
 nutrition_servings:
   per_package: 0

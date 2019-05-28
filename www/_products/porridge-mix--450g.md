@@ -10,14 +10,16 @@ subscription: false
 available: true
 image_path: /images/logo/color_logo_with_background.png
 ingredients:
-  - Rolled Oats
-  - Walnuts
-  - Dried Dates
-  - Dried Apple
-  - Coconut Flakes
-  - 'Organic Omega Seed Mix (Pepitas, Sunflower Seeds, Chia Seeds, Linseeds)'
-  - Cinnamon
-  - Ginger
+  - Rolled Oats (53%)
+  - Walnuts (14%)
+  - Dried Dates (11%)
+  - >-
+    Organic Omega Seed Mix (Pepitas, Sunflower Seeds, Chia Seeds, Linseeds)
+    (11%)
+  - Dried Apple (7%)
+  - Coconut Flakes (3.5%)
+  - Cinnamon (0.25%
+  - Ginger (0.07%)
 warnings:
   - name: May contain traces
     value: peanuts

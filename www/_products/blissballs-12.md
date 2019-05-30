@@ -33,28 +33,28 @@ nutrition_servings:
   serving_size: 45g
 nutrition_details:
   energy:
-    serving: '906'
-    perg: 2010
+    serving: 906kJ
+    perg: 2010kJ
   protein:
-    serving: 3.6
-    perg: 8.1
+    serving: 3.6g
+    perg: 8.1g
   'fat, total':
-    serving: 14.2
-    perg: 31.5
+    serving: 14.2g
+    perg: 31.5g
     specifics:
       saturated:
-        serving: 6.3
-        perg: '14.0'
+        serving: 6.3g
+        perg: 14.0g
   carbohydrate:
-    serving: 16.9
-    perg: 37.5
+    serving: 16.9g
+    perg: 37.5g
     specifics:
       sugars:
-        serving: 14.6
-        perg: 32.3
+        serving: 14.6g
+        perg: 32.3g
   sodium:
-    serving: 110
-    perg: 245
+    serving: 110g
+    perg: 245g
 _options:
   image_path:
     uploads_dir: '/images/products/:title'

@@ -6,18 +6,38 @@ _comments:
   name: the name of the category
 ---
 
-**Coconut Rough**
+#### Coconut Rough
 
-Dates, Almonds, Coconut, Cacao Powder, Coconut Oil & Coconut Essence
+* Dates
+* Almonds
+* Coconut
+* Cacao Powder
+* Coconut Oil
+* Coconut Essence
 
-**Salted Caramel**
+#### Salted Caramel
 
-Dry Roasted Cashews, Dates, Coconut, Maca Powder, Coconut Oil & Sea Salt
+* Dry Roasted Cashews
+* Dates
+* Coconut
+* Maca Powder
+* Coconut Oil
+* Sea Salt
 
-**Choc Orange**
+#### Choc Orange
 
-Dates, Almonds, Coconut, Cacao Powder, Coconut Oil & doTerra Wild Orange Oil
+* Dates
+* Almonds
+* Coconut
+* Cacao Powder
+* Coconut Oil
+* doTerra Wild Orange Oil
 
-**Choc Mint**
+#### Choc Mint
 
-Dates, Almonds, Coconut, Cacao Powder, Coconut Oil & doTerra Peppermint Oil
+* Dates
+* Almonds
+* Coconut
+* Cacao Powder
+* Coconut Oil
+* doTerra Peppermint Oil

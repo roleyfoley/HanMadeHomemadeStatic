@@ -89,58 +89,38 @@ _array_structures:
         value:
 ---
 
-**\#\#\#\# Coconut Rough**
+#### Coconut Rough
 
-\* Dates
+* Dates
+* Almonds
+* Coconut
+* Cacao Powder
+* Coconut Oil
+* Coconut Essence
 
-\* Almonds
+#### Salted Caramel
 
-\* Coconut
+* Dry Roasted Cashews
+* Dates
+* Coconut
+* Maca Powder
+* Coconut Oil
+* Sea Salt
 
-\* Cacao Powder
+#### Choc Orange
 
-\* Coconut Oil
+* Dates
+* Almonds
+* Coconut
+* Cacao Powder
+* Coconut Oil
+* doTerra Wild Orange Oil
 
-\* Coconut Essence
+#### Choc Mint
 
-**\#\#\#\# Salted Caramel**
-
-\* Dry Roasted Cashews
-
-\* Dates
-
-\* Coconut
-
-\* Maca Powder
-
-\* Coconut Oil
-
-\* Sea Salt
-
-**\#\#\#\# Choc Orange**
-
-\* Dates
-
-\* Almonds
-
-\* Coconut
-
-\* Cacao Powder
-
-\* Coconut Oil
-
-\* doTerra Wild Orange Oil
-
-**\#\#\#\# Choc Mint**
-
-\* Dates
-
-\* Almonds
-
-\* Coconut
-
-\* Cacao Powder
-
-\* Coconut Oil
-
-\* doTerra Peppermint Oil
+* Dates
+* Almonds
+* Coconut
+* Cacao Powder
+* Coconut Oil
+* doTerra Peppermint Oil

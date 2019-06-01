@@ -89,6 +89,10 @@ _array_structures:
         value:
 ---
 
+The perfect breakfast and snack option for those on the run. They pack both a flavour and nutritional punch, satisfying tummies at all times of the day.&nbsp;
+
+Made from 80% Australian or Organic ingredients, you know you'll be fuelled with the highest quality goods while supporting the local community.&nbsp;
+
 #### Coconut Rough
 
 * Dates

@@ -3,7 +3,7 @@ name: Porridge Mix
 product_category: porridge-mix
 price: '12.00'
 options:
-  - name: 450g Bag
+  - name: 480g Bag
     price_modifier: 0
 sku: porridgemix
 subscription: false

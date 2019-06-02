@@ -1,5 +1,5 @@
 ---
-name: porridgemix
+name: porridge-mix
 _comments:
   name: the name of the category
 ---

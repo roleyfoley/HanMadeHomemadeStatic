@@ -93,18 +93,18 @@ The perfect breakfast and snack option for those on the run. They pack both a fl
 
 Made from 80% Australian or Organic ingredients, you know you'll be fuelled with the highest quality goods while supporting the local community.&nbsp;
 
-##### Coconut Rough
+#### Coconut Rough
 
 Dates, Almonds, Coconut, Cacao Powder, Coconut Oil, Coconut Essence
 
-##### Salted Caramel
+#### Salted Caramel
 
 Dry Roasted Cashews, Dates, Coconut, Maca Powder, Coconut Oil, Sea Salt
 
-##### Choc Orange
+#### Choc Orange
 
 Dates, Almonds, Coconut, Cacao Powder, Coconut Oil, doTerra Wild Orange Oil
 
-##### Choc Mint
+#### Choc Mint
 
 Dates, Almonds, Coconut, Cacao Powder, Coconut Oil, doTerra Peppermint Oil

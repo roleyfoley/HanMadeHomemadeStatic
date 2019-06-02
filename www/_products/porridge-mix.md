@@ -1,6 +1,6 @@
 ---
 name: Porridge Mix
-product_category: porridge-mix
+product_category: muesli
 price: '12.00'
 options:
   - name: 480g Bag

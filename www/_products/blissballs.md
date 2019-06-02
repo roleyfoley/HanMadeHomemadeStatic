@@ -95,36 +95,16 @@ Made from 80% Australian or Organic ingredients, you know you'll be fuelled with
 
 #### Coconut Rough
 
-* Dates
-* Almonds
-* Coconut
-* Cacao Powder
-* Coconut Oil
-* Coconut Essence
+Dates | Almonds | Coconut | Cacao Powder | Coconut Oil | Coconut Essence
 
 #### Salted Caramel
 
-* Dry Roasted Cashews
-* Dates
-* Coconut
-* Maca Powder
-* Coconut Oil
-* Sea Salt
+Dry Roasted Cashews | Dates | Coconut | Maca Powder | Coconut Oil | Sea Salt
 
 #### Choc Orange
 
-* Dates
-* Almonds
-* Coconut
-* Cacao Powder
-* Coconut Oil
-* doTerra Wild Orange Oil
+Dates | Almonds | Coconut | Cacao Powder | Coconut Oil | doTerra Wild Orange Oil
 
 #### Choc Mint
 
-* Dates
-* Almonds
-* Coconut
-* Cacao Powder
-* Coconut Oil
-* doTerra Peppermint Oil
+Dates | Almonds | Coconut | Cacao Powder | Coconut Oil | doTerra Peppermint Oil

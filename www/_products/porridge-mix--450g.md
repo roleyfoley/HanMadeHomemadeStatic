@@ -27,8 +27,8 @@ warnings:
     value: 'Wheat, Oats, Tree Nuts, Sesame Seeds'
 ingredient_tag: Made in Australia with 80% of ingredients sourced in Australia
 nutrition_servings:
-  per_package: 0
-  serving_size: 0
+  per_package: 8
+  serving_size: 60g
 nutrition_details:
   energy:
     serving: 0kJ

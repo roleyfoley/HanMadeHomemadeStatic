@@ -1,15 +1,15 @@
 ---
-name: Bliss Balls - 12 Pack
+name: Bliss Balls
 product_category: bliss-balls
 price: '30.00'
 options:
-  - name: Coconut Rough
+  - name: Coconut Rough - 12 Pack
     price_modifier: 00.00
-  - name: Salted Caramel
+  - name: Salted Caramel - 12 Pack
     price_modifier: 00.00
-  - name: Choc Orange
+  - name: Choc Orange - 12 Pack
     price_modifier: 00.00
-  - name: Choc Mint
+  - name: Choc Mint - 12 Pack
     price_modifier: 00.00
 sku: blissball-12
 subscription: false

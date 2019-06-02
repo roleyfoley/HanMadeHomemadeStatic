@@ -4,7 +4,7 @@ _comments:
   name: the name of the category
 ---
 
-#### Our Current Blend - Autumn
+#### Our Current Blend - Winter
 
 * Apples
 * Dates

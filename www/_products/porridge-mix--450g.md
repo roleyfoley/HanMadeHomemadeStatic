@@ -31,28 +31,28 @@ nutrition_servings:
   serving_size: 60g
 nutrition_details:
   energy:
-    serving: 0kJ
-    perg: 0kJ
+    serving: 1100kJ
+    perg: 1830kj
   protein:
-    serving: 0g
-    perg: 0g
+    serving: 6.5g
+    perg: 10.8g
   'fat, total':
-    serving: 0g
-    perg: 0g
+    serving: 13g
+    perg: 21.6g
     specifics:
       saturated:
-        serving: 0g
-        perg: 0g
+        serving: 2.3g
+        perg: 3.8g
   carbohydrate:
-    serving: 0g
-    perg: 0g
+    serving: 27.2g
+    perg: 45.3g
     specifics:
       sugars:
-        serving: 0g
-        perg: 0g
+        serving: 7.4g
+        perg: 12.3g
   sodium:
-    serving: 0mg
-    perg: 0mg
+    serving: 9mg
+    perg: 13mg
 _options:
   image_path:
     uploads_dir: '/images/products/:title'

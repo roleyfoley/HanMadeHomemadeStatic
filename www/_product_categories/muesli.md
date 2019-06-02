@@ -2,7 +2,7 @@
 name: muesli
 ---
 
-#### Our Current Blend - Autumn
+#### Our Current Blend - Winter
 
 * Apples
 * Dates

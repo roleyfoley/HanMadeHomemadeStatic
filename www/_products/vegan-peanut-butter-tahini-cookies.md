@@ -83,3 +83,6 @@ _array_structures:
         value:
 ---
 
+An irresistible, nutritious & melt in your mouth cookie, packed with all the good stuff, crunchy peanut butter, creamy tahini, a sprinkle of sea salt and sweetened with real maple syrup.&nbsp;
+
+Whether you need a little something to get you over the 3pm slump or to share with loved ones over a cuppa, these cookies won't fail to please.&nbsp;

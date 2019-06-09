@@ -2,13 +2,13 @@
 name: Vegan Peanut Butter Tahini Cookies
 product_category: snacks
 price: '20.00'
-options: 
+options:
   - name: 12 Pack
     price_modifier: 00.00
 sku: peanutbuttertahinicookies-12
 subscription: false
 available: true
-image_path: /images/logo/color_logo_with_background.png
+image_path: /images/products/2019-06-05-hanmade-pbtcookiessquare.jpg
 ingredients:
   - Peanut Butter (33%)
   - Plain Wholewheat Flour (31%)

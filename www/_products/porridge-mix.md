@@ -8,7 +8,7 @@ options:
 sku: porridgemix
 subscription: false
 available: true
-image_path: /images/logo/color_logo_with_background.png
+image_path: /images/products/2019-06-05-hanmade-PorridgeMixSquare.jpg
 ingredients:
   - Rolled Oats (53%)
   - Walnuts (14%)

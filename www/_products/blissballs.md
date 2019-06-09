@@ -14,7 +14,7 @@ options:
 sku: blissball-12
 subscription: false
 available: true
-image_path: /images/products/2018-12-13-hanmade-2482.jpg
+image_path: /images/products/2019-06-05-hanmade-blissballssquare.jpg
 ingredients:
   - Dried Dates (44%)
   - Cashews/Almonds (37.5%)

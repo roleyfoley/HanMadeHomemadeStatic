@@ -8,7 +8,7 @@ options:
 sku: mueslibag
 subscription: false
 available: true
-image_path: /images/products/muesli-bag.jpg
+image_path: /2019-06-05-hanmade-mueslibagsquare.jpg
 ingredients:
   - Australian Rolled Oats (46%)
   - Organic Walnuts (12%)

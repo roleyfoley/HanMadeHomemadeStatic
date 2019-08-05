@@ -28,7 +28,7 @@ warnings:
 ingredient_tag: Made in Australia with 80% of ingredients sourced in Australia
 nutrition_servings:
   per_package: 8
-  serving_size: 60g
+  serving_size: 56.25g
 nutrition_details:
   energy:
     serving: 1100kJ

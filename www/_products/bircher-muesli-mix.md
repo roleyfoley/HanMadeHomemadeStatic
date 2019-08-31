@@ -1,9 +1,9 @@
 ---
 name: Bircher Muesli Mix
-product_category:
+product_category: bircher-mix
 price: '12.00'
 options: []
-sku: birchermuesli
+sku: birchermix
 subscription: false
 available: true
 image_path: /images/logo/dark_logo_transparent.png

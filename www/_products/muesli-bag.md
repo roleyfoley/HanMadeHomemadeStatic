@@ -11,16 +11,15 @@ available: true
 image_path: /2019-06-05-hanmade-mueslibagsquare.jpg
 ingredients:
   - Australian Rolled Oats (46%)
-  - Organic Walnuts (12%)
-  - Dried Apple (12%)
+  - Almonds (12%)
+  - Apricots (12%)
   - >-
     Organic Omega Seed Mix (Pepitas, Sunflower seeds, Linseed, Chia Seed, Sesame
     Seeds) (12%)
-  - Honey (9%)
-  - Dried Dates (8%)
+  - Organic Honey (9%)
+  - Dried Cranberries (8%)
   - Coconut Flakes (5%)
   - Organic Cinnamon (0.2%)
-  - Ginger (0.06%)
 warnings:
   - name: contains
     value: 'Wheat, oats, seeds, tree nuts'

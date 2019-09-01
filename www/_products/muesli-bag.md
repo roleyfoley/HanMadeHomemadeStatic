@@ -44,8 +44,8 @@ nutrition_details:
         serving: 1.8g
         perg: 4.1g
   carbohydrate:
-    serving: 21.6g
-    perg: 47.9g
+    serving: 20.7g
+    perg: 45.9g
     specifics:
       sugars:
         serving: 8.6g

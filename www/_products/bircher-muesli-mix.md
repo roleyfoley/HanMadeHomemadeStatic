@@ -37,12 +37,12 @@ nutrition_details:
         serving: 2.1g
         perg: 3.7g
   carbohydrate:
-    serving: 0g
-    perg: 0g
+    serving: 24.6g
+    perg: 43.7g
     specifics:
       sugars:
-        serving: 0g
-        perg: 0g
+        serving: 6.1g
+        perg: 10.8g
   sodium:
     serving: 0mg
     perg: 0mg

@@ -89,4 +89,4 @@ _array_structures:
 
 A porridge mix that warms the heart and fills that rumbling tummy. A charming mix of spices, fruits and nuts that will spark memories of warm apple pie shared with loved ones on a cold Canberra night.&nbsp;
 
-Ingredients are selected to highlight the flavours of the season and 80% sourced locally to support a thriving community. Simply added your favourite milk, cook on the stove top and drizzle over some honey or maple syrup or a sprinkle of brown sugar, for a scrumptious start to the day.&nbsp;
+Ingredients are selected to highlight the flavours of the season and 80% sourced locally to support a thriving community. Simply add your favourite milk, cook on the stove top and drizzle over some honey or maple syrup or a sprinkle of brown sugar, for a scrumptious start to the day.&nbsp;

@@ -13,16 +13,15 @@ available: true
 image_path: /2019-06-05-hanmade-muesliswapsquare.jpg
 ingredients:
   - Australian Rolled Oats (45%)
-  - Walnuts (12%)
-  - Dried Apple (12%)
+  - Slivered Almonds (12%)
+  - Dried Apricots (12%)
   - >-
     Organic Omega Seed Mix (Pepitas, Sunflower seeds, Linseed, Chia Seed, Sesame
     Seeds) (12%)
   - Honey (9%)
-  - Dried Dates (8%)
+  - Dried Cranberries (8%)
   - Coconut Flakes (5%)
   - Organic Cinnamon (0.2%)
-  - Ginger (0.06%)
 warnings:
   - name: contains
     value: 'Wheat, Oats, Sesame seeds, Tree nuts'
@@ -34,8 +33,8 @@ nutrition_servings:
   serving_size: 45.00g
 nutrition_details:
   energy:
-    serving: 813kJ
-    perg: 1810kJ
+    serving: 774kJ
+    perg: 1720kJ
   protein:
     serving: 4.4g
     perg: 9.8g

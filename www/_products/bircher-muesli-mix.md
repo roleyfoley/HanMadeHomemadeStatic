@@ -6,16 +6,15 @@ options: []
 sku: birchermix
 subscription: false
 available: true
-image_path: /images/logo/dark_logo_transparent.png
+image_path: /images/products/bircher-muesli-mix/2019-06-05-hanmade-porridgemixsquare.jpg
 ingredients:
-  - Rolled Oats
-  - Slivered Almonds
-  - Apricots
-  - Organic Omega Seed Mix
-  - Organic Honey
-  - Cranberries
-  - Flaked Coconut
-  - Cinnamon
+  - Rolled Oats (53%)
+  - Slivered Almonds (14%)
+  - Currants (11%)
+  - Organic Omega Seed Mix (11%)
+  - Apricots (7%)
+  - Flaked Coconut (3.5%)
+  - Cinnamon (0.32%
 warnings:
   - name: May contain traces
     value: peanuts
@@ -25,8 +24,8 @@ nutrition_servings:
   serving_size: 0
 nutrition_details:
   energy:
-    serving: 0kJ
-    perg: 0kJ
+    serving: 983kJ
+    perg: 1750kJ
   protein:
     serving: 0g
     perg: 0g

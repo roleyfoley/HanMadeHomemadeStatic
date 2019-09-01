@@ -41,8 +41,8 @@ nutrition_details:
     perg: 18.8g
     specifics:
       saturated:
-        serving: 1.9g
-        perg: 4.2g
+        serving: 1.8g
+        perg: 4.1g
   carbohydrate:
     serving: 21.6g
     perg: 47.9g

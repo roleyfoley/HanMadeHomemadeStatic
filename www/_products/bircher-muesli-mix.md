@@ -27,8 +27,8 @@ nutrition_details:
     serving: 983kJ
     perg: 1750kJ
   protein:
-    serving: 0g
-    perg: 0g
+    serving: 5.7g
+    perg: 12g
   'fat, total':
     serving: 0g
     perg: 0g

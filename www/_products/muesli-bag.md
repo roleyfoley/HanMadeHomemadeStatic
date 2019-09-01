@@ -48,8 +48,8 @@ nutrition_details:
     perg: 45.9g
     specifics:
       sugars:
-        serving: 8.6g
-        perg: 19.2g
+        serving: 7.8g
+        perg: 17.4g
   sodium:
     serving: 8mg
     perg: 17mg

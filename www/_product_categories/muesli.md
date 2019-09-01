@@ -2,13 +2,12 @@
 name: muesli
 ---
 
-#### Our Current Blend - Winter
+#### Our Current Blend - Spring
 
-* Apples
-* Dates
-* Walnuts
+* Apricots
+* Cranberries
+* Almonds
 * Coconut Flakes
 * Seed Mix
 * Honey
 * Cinnamon
-* Ginger

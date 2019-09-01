@@ -4,6 +4,8 @@ _comments:
   name: the name of the category
 ---
 
+### Our Current Blend
+
 * Apricots
 * Currants
 * Almonds

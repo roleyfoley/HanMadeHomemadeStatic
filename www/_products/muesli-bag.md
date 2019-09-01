@@ -37,8 +37,8 @@ nutrition_details:
     serving: 4.8g
     perg: 10.7g
   'fat, total':
-    serving: 9.2g
-    perg: 20.4g
+    serving: 8.4g
+    perg: 18.8g
     specifics:
       saturated:
         serving: 1.9g

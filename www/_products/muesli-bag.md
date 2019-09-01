@@ -51,8 +51,8 @@ nutrition_details:
         serving: 7.8g
         perg: 17.4g
   sodium:
-    serving: 8mg
-    perg: 17mg
+    serving: 5mg
+    perg: 11mg
 ---
 
 A muesli that ticks all the boxes, taste, nutrition and good at heart

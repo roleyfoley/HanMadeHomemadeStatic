@@ -53,8 +53,8 @@ nutrition_details:
         serving: 7.8g
         perg: 17.4g
   sodium:
-    serving: 8mg
-    perg: 17mg
+    serving: 5mg
+    perg: 11mg
 ---
 
 The perfect option for the serious muesli lover. 1.5kg of scrumptious seasonal muesli provides a waste conscious way to fulfil your breakfast and snack needs.

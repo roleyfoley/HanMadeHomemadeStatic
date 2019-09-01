@@ -31,8 +31,8 @@ nutrition_servings:
   serving_size: 45g
 nutrition_details:
   energy:
-    serving: 813kJ
-    perg: 1810kJ
+    serving: 774kJ
+    perg: 1720kJ
   protein:
     serving: 4.4g
     perg: 9.8g

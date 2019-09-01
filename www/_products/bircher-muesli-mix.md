@@ -2,7 +2,9 @@
 name: Bircher Muesli Mix
 product_category: bircher-mix
 price: '12.00'
-options: []
+options:
+  - name:
+    price_modifier: 0
 sku: birchermix
 subscription: false
 available: true
@@ -18,6 +20,8 @@ ingredients:
 warnings:
   - name: May contain traces
     value: peanuts
+  - name: Contains
+    value: 'Wheat, Tree nuts, sesame seeds,'
 ingredient_tag: Made in Australia with 80% of ingredients sourced in Australia
 nutrition_servings:
   per_package:
@@ -80,3 +84,6 @@ _array_structures:
         value:
 ---
 
+A bircher muesli mix packed full of goodness, crunching nuts and seeds, sweet and tangy fruits and tasty spices. Perfect for those looking for a nutritious breakfast on the run or to tuck into a big bowl with your morning cuppa.&nbsp;
+
+Ingredients are selected to highlight the flavours of the season and 80% sourced locally to support a thriving community. Simply add your favourite milk or fruit juice, stir and refrigerate overnight. Top with yoghurt, fresh fruit and a drizzle of honey, for a scrumptious start to the day.

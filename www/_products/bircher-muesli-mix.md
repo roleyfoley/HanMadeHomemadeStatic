@@ -30,12 +30,12 @@ nutrition_details:
     serving: 5.7g
     perg: 12g
   'fat, total':
-    serving: 0g
-    perg: 0g
+    serving: 11.1g
+    perg: 19.7g
     specifics:
       saturated:
-        serving: 0g
-        perg: 0g
+        serving: 2.1g
+        perg: 3.7g
   carbohydrate:
     serving: 0g
     perg: 0g

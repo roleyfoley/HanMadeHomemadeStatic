@@ -24,8 +24,8 @@ warnings:
     value: 'Wheat, Tree nuts, sesame seeds,'
 ingredient_tag: Made in Australia with 80% of ingredients sourced in Australia
 nutrition_servings:
-  per_package:
-  serving_size: 0
+  per_package: '10'
+  serving_size: 45g
 nutrition_details:
   energy:
     serving: 983kJ

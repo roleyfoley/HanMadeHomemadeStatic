@@ -3,8 +3,8 @@ name: Bircher Muesli Mix
 product_category: bircher-mix
 price: '12.00'
 options:
-  - name:
-    price_modifier: 0
+  - name: 450g Bag
+    price_modifier: 00.00
 sku: birchermix
 subscription: false
 available: true

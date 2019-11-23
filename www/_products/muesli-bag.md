@@ -1,5 +1,5 @@
 ---
-name: Seasonal Muesli
+name: Original Muesli
 product_category: muesli
 price: '12.00'
 options:

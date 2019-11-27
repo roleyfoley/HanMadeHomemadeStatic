@@ -3,7 +3,7 @@ name: Fruit Free Muesli
 product_category: muesli
 price: '12'
 options: []
-sku:
+sku: fruitfree
 subscription: false
 available: true
 image_path: /images/products/muesli-bag.jpg
@@ -83,3 +83,6 @@ _array_structures:
         value:
 ---
 
+A muesli that packs a punch\! Crunchy nuts, coconut, seeds and oats roasted in cinnamon and honey is the perfect company in bowl with your favourite fresh fruits.&nbsp;
+
+Whether you sprinkle it on your yoghurt, drown it in milk, spoon it into your smoothie or eat it by the handful, you choose your breakfast adventure.

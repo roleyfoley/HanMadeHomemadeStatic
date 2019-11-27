@@ -1,5 +1,5 @@
 ---
-name: Seasonal Muesli Swap
+name: Hanmade Muesli Swap
 product_category: muesli
 price: '30.00'
 options:

@@ -2,7 +2,7 @@
 name: muesli
 ---
 
-#### Our Current Blend - Spring
+#### Original Blend
 
 * Apricots
 * Cranberries

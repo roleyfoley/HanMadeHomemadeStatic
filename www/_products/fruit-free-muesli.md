@@ -1,8 +1,14 @@
 ---
 name: Fruit Free Muesli
-product_category: muesli
+product_category:
 price: '12'
-options: []
+options:
+  - name: 450g
+    price_modifier: 12
+  - name: 1.5kg Jar
+    price_modifier: $40
+  - name: 1.5kg Refill
+    price_modifier: $30
 sku: fruitfree
 subscription: false
 available: true

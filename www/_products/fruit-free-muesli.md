@@ -23,32 +23,32 @@ warnings:
     value: Peanuts
 ingredient_tag: Made in Australia with 80% of ingredients sourced in Australia
 nutrition_servings:
-  per_package: 0
-  serving_size: 0
+  per_package: 10
+  serving_size: 45g
 nutrition_details:
   energy:
-    serving: 0kJ
-    perg: 0kJ
+    serving: 854kj
+    perg: 1900kj
   protein:
-    serving: 0g
-    perg: 0g
+    serving: 5.3g
+    perg: 11.8g
   'fat, total':
-    serving: 0g
-    perg: 0g
+    serving: 10.8g
+    perg: 24.1g
     specifics:
       saturated:
-        serving: 0g
-        perg: 0g
+        serving: 2.8g
+        perg: 6.2g
   carbohydrate:
-    serving: 0g
-    perg: 0g
+    serving: 19.7g
+    perg: 43.8g
     specifics:
       sugars:
-        serving: 0g
-        perg: 0g
+        serving: 4.9g
+        perg: 10.8g
   sodium:
-    serving: 0mg
-    perg: 0mg
+    serving: 4mg
+    perg: 9mg
 _options:
   image_path:
     uploads_dir: '/images/products/:title'

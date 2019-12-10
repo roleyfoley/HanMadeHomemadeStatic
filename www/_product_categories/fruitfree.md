@@ -1,5 +1,5 @@
 ---
-name: FruitFree
+name: fruit-free
 _comments:
   name: the name of the category
 ---

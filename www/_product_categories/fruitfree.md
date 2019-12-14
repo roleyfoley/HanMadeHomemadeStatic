@@ -6,7 +6,7 @@ _comments:
 
 * Rolled Oats
 * Seed Mix
-* Hazlenuts
+* Hazelnuts
 * Pecans
 * Almonds
 * Cashews

@@ -6,9 +6,9 @@ options:
   - name: 450g
     price_modifier: 0
   - name: 1.5kg Jar
-    price_modifier: '+28.00'
+    price_modifier: 28
   - name: 1.5kg Refill
-    price_modifier: '+18.00'
+    price_modifier: 18
 sku: fruitfree
 subscription: false
 available: true

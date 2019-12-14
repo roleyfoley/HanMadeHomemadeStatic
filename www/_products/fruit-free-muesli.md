@@ -1,6 +1,6 @@
 ---
 name: Fruit Free Muesli
-product_category:
+product_category: fruitfree
 price: '12.00'
 options:
   - name: 450g

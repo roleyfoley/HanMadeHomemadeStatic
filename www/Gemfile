@@ -6,3 +6,5 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag', '2.4.0'
   gem 'jekyll-sitemap', '1.2.0'
 end
+
+gem 's3_website', '3.4.0'

@@ -13,7 +13,7 @@ options:
     price_modifier: 00.00
 sku: blissball-12
 subscription: false
-available: true
+available: false
 image_path: /images/products/2019-06-05-hanmade-blissballssquare.jpg
 ingredients:
   - Dried Dates (44%)

@@ -86,3 +86,8 @@ _array_structures:
         value:
 ---
 
+LIMITED EDITION\!&nbsp;
+
+A muesli that will put a swing in your step. Bursting with the vibrant flavours of succulent cherries, juicy peaches and buttery macadamias, this limited edition blend with satisfy that rumbling tummy.&nbsp;&nbsp;
+
+Ingredients are selected to highlight the flavours of the season and source locally to support a thriving community. Whether you sprinkle it on your yoghurt, drown it in milk, spoon it into your smoothie or eat it by the handful, you choose your breakfast adventure.

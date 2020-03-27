@@ -5,43 +5,53 @@ price: '12'
 options:
   - name: 450g
     price_modifier: 00.00
-sku:
+sku: peachykeen
 subscription: false
 available: true
-image_path: /images/logo/dark_logo_transparent.png
+image_path: /images/products/muesli-bag.jpg
 ingredients:
-  -
+  - Australian Rolled Oats (46%)
+  - Australian Macadamias (12%)
+  - Dried Peaches (12%)
+  - 'Organic Seed Mix (Pepitas, Sunflower, Chia & Sesame)'
+  - Organic Dried Cherries (9%)
+  - Organic Honey (8%)
+  - Coconut Flakes (5%)
+  - Cinnamon (0.2%)
+  - Vanilla Extract (0.1%)
 warnings:
   - name: May contain traces
-    value: peanuts
-ingredient_tag: Made in Australia with 0% of ingredients sourced in Australia
+    value: 'Wheat, oats, seeds, tree nuts'
+  - name: May contain traces
+    value: Peanuts
+ingredient_tag: Made in Australia with 80% of ingredients sourced in Australia
 nutrition_servings:
-  per_package: 0
-  serving_size: 0
+  per_package: 10
+  serving_size: 45g
 nutrition_details:
   energy:
-    serving: 0kJ
-    perg: 0kJ
+    serving: 786kJ
+    perg: 1750kJ
   protein:
-    serving: 0g
-    perg: 0g
+    serving: 4.1g
+    perg: 9g
   'fat, total':
-    serving: 0g
-    perg: 0g
+    serving: 9.1g
+    perg: 20.1g
     specifics:
       saturated:
-        serving: 0g
-        perg: 0g
+        serving: 2.1g
+        perg: 4.6g
   carbohydrate:
-    serving: 0g
-    perg: 0g
+    serving: 21.2g
+    perg: 47.1g
     specifics:
       sugars:
-        serving: 0g
-        perg: 0g
+        serving: 8.4g
+        perg: 18.7g
   sodium:
-    serving: 0mg
-    perg: 0mg
+    serving: 4mg
+    perg: 10mg
 _options:
   image_path:
     uploads_dir: '/images/products/:title'

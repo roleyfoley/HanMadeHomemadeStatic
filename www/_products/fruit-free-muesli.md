@@ -8,7 +8,7 @@ options:
 sku: fruitfree
 subscription: false
 available: true
-image_path: /images/products/muesli-bag.jpg
+image_path: /images/products/2019-06-05-hanmade-PorridgeMixSquare.jpg
 ingredients:
   - Australian Rolled Oats
   - >-

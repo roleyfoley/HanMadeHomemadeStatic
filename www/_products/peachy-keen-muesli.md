@@ -1,7 +1,7 @@
 ---
 name: Peachy Keen Muesli
 product_category: muesli
-price: '12'
+price: '12.00'
 options:
   - name: 450g
     price_modifier: 00.00

@@ -90,3 +90,15 @@ LIMITED EDITION\!&nbsp;
 A blend that will warm your heart on those cool Autumn mornings. Each spoonful boasts the comforting flavours of juicy apples, wholesome dates and buttery pecans, this limited edition blend will be a favourite with a household of hungry beings.&nbsp;&nbsp;
 
 Ingredients are mindfully selected to create a unique and delicious blend and sourced locally to support a thriving community. Whether you sprinkle it on your yoghurt, drown it in milk, spoon it into your smoothie or eat it by the handful, you choose your breakfast adventure.
+
+&nbsp;
+
+#### Original Blend
+
+* Apples
+* Dates
+* Pecans
+* Coconut Flakes
+* Seed Mix
+* Honey
+* Cinnamon

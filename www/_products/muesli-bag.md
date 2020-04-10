@@ -55,6 +55,16 @@ nutrition_details:
     perg: 11mg
 ---
 
-A muesli that ticks all the boxes, taste, nutrition and good at heart
+A muesli that ticks all the boxes, taste, nutrition and good at heart.&nbsp;
 
 Ingredients are selected to highlight the flavours of the season and source locally to support a thriving community. Whether you sprinkle it on your yoghurt, drown it in milk, spoon it into your smoothie or eat it by the handful, you choose your breakfast adventure.
+
+#### Original Blend
+
+* Apricots
+* Cranberries
+* Almonds
+* Coconut Flakes
+* Seed Mix
+* Honey
+* Cinnamon

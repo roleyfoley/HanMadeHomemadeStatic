@@ -10,14 +10,23 @@ subscription: false
 available: true
 image_path: /images/products/2019-06-05-hanmade-PorridgeMixSquare.jpg
 ingredients:
-  -
+  - Australian Rolled Oats
+  - Australian Pecans
+  - Dried Pears
+  - Organic Omega Seed Mix
+  - Organic Currants
+  - Organic Honey
+  - Coconut Flakes
+  - Cinnamon
 warnings:
   - name: May contain traces
     value: peanuts
-ingredient_tag: Made in Australia with 0% of ingredients sourced in Australia
+  - name:
+    value:
+ingredient_tag: Made in Australia with 80% of ingredients sourced in Australia
 nutrition_servings:
-  per_package: 0
-  serving_size: 0
+  per_package: 10
+  serving_size: 45
 nutrition_details:
   energy:
     serving: 0kJ

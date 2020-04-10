@@ -4,20 +4,20 @@ product_category: muesli
 price: '12.00'
 options:
   - name: 450g
-    price_modifier: 00.00
+    price_modifier: '12.00'
 sku: pecanpie
 subscription: false
 available: true
 image_path: /images/products/2019-06-05-hanmade-PorridgeMixSquare.jpg
 ingredients:
-  - Australian Rolled Oats
-  - Australian Pecans
-  - Dried Pears
-  - Organic Omega Seed Mix
-  - Organic Currants
-  - Organic Honey
-  - Coconut Flakes
-  - Cinnamon
+  - Australian Rolled Oats (46%)
+  - Australian Pecans (12%)
+  - Dried Dates (12%)
+  - 'Organic Seed Mix (Pepitas, Sunflower, Chia & Sesame) (11%)'
+  - Organic Apples (9%)
+  - Organic Honey (8%)
+  - Coconut Flakes (5%)
+  - Cinnamon (0.35)
 warnings:
   - name: May contain traces
     value: peanuts

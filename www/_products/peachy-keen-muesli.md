@@ -13,7 +13,7 @@ ingredients:
   - Australian Rolled Oats (46%)
   - Australian Macadamias (12%)
   - Dried Peaches (12%)
-  - 'Organic Seed Mix (Pepitas, Sunflower, Chia & Sesame)'
+  - 'Organic Seed Mix (Pepitas, Sunflower, Chia & Sesame) (11%)'
   - Organic Dried Cherries (9%)
   - Organic Honey (8%)
   - Coconut Flakes (5%)

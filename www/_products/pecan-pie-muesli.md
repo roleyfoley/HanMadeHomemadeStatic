@@ -4,7 +4,7 @@ product_category: muesli
 price: '12.00'
 options:
   - name: 450g
-    price_modifier: '12.00'
+    price_modifier:
 sku: pecanpie
 subscription: false
 available: true
@@ -15,7 +15,7 @@ ingredients:
   - Dried Dates (12%)
   - 'Organic Seed Mix (Pepitas, Sunflower, Chia & Sesame) (11%)'
   - Organic Apples (9%)
-  - Organic Honey (8%)
+  - Organic Honey (9%)
   - Coconut Flakes (5%)
   - Cinnamon (0.35)
 warnings:

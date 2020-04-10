@@ -4,7 +4,7 @@ product_category: muesli
 price: '12.00'
 options:
   - name: 450g
-    price_modifier: '12.00'
+    price_modifier: 00.00
 sku: pearfect
 subscription: false
 available: true

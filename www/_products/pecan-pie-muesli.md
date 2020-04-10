@@ -21,8 +21,8 @@ ingredients:
 warnings:
   - name: May contain traces
     value: peanuts
-  - name:
-    value:
+  - name: Contains
+    value: 'Sesame seeds, wheat, gluten'
 ingredient_tag: Made in Australia with 80% of ingredients sourced in Australia
 nutrition_servings:
   per_package: 10

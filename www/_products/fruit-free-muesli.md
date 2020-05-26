@@ -5,6 +5,8 @@ price: '12.00'
 options:
   - name: 450g
     price_modifier: 0
+  - name: 900g Bag
+    price_modifier: 24
 sku: fruitfree
 subscription: false
 available: true

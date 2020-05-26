@@ -5,6 +5,8 @@ price: '12.00'
 options:
   - name: 450g Bag
     price_modifier: 0
+  - name: 900g Bag
+    price_modifier: 24
 sku: porridgemix
 subscription: false
 available: true

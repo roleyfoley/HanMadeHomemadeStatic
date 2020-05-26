@@ -5,6 +5,8 @@ price: '12.00'
 options:
   - name: 450g Bag
     price_modifier: 00.00
+  - name: 900g Bag
+    price_modifier: 24
 sku: birchermix
 subscription: false
 available: true

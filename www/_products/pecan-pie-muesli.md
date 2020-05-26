@@ -5,6 +5,8 @@ price: '12.00'
 options:
   - name: 450g
     price_modifier: 00.00
+  - name: 900 Bag
+    price_modifier: 24
 sku: pecanpie
 subscription: false
 available: true

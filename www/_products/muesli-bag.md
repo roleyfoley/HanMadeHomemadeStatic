@@ -4,9 +4,9 @@ product_category: muesli
 price: '12.00'
 options:
   - name: 450g Bag
-    price_modifier: 00.00
+    price_modifier: 0
   - name: 900g Bag
-    price_modifier: '24'
+    price_modifier: +12.00
 sku: mueslibag
 subscription: false
 available: true

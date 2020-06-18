@@ -6,10 +6,10 @@ options:
   - name: 450g
     price_modifier: 0
   - name: 900 Bag
-    price_modifier: +12.00
+    price_modifier: 12
 sku: pecanpie
 subscription: false
-available: true
+available: false
 image_path: /images/products/2019-06-05-hanmade-PorridgeMixSquare.jpg
 ingredients:
   - Australian Rolled Oats (46%)

@@ -6,10 +6,10 @@ options:
   - name: 450g
     price_modifier: 0
   - name: 900g Bag
-    price_modifier: +12.00
+    price_modifier: 12
 sku: pearfect
 subscription: false
-available: true
+available: false
 image_path: /images/products/bircher-muesli-mix/2019-06-05-hanmade-porridgemixsquare.jpg
 ingredients:
   - Australian Rolled Oats (46%)

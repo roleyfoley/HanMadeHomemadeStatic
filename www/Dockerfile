@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:builder
+FROM jekyll/jekyll:latest
 
 ENV JEKYLL_ENV=production
-RUN gem install s3_website
+RUN bundle install

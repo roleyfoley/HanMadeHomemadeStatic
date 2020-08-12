@@ -7,4 +7,5 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap', '1.4.0'
 end
 
+gem 'cloudcannon-jekyll', :group => :jekyll_plugins
 gem 's3_website', '3.4.0'

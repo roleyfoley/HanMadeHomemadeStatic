@@ -9,7 +9,7 @@ options:
     price_modifier: +12.00
 sku: birchermix
 subscription: false
-available: true
+available: false
 image_path: /images/products/bircher-muesli-mix/2019-06-05-hanmade-porridgemixsquare.jpg
 ingredients:
   - Rolled Oats (53%)

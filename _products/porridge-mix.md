@@ -9,7 +9,7 @@ options:
     price_modifier: +12.00
 sku: porridgemix
 subscription: false
-available: true
+available: false
 image_path: /images/products/2019-06-05-hanmade-PorridgeMixSquare.jpg
 ingredients:
   - Rolled Oats (53%)

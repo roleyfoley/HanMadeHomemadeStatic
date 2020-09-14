@@ -9,7 +9,7 @@ options:
     price_modifier: +12.00
 sku: peachykeen
 subscription: false
-available: true
+available: false
 image_path: /images/products/muesli-bag.jpg
 ingredients:
   - Australian Rolled Oats (46%)

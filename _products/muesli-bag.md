@@ -9,7 +9,7 @@ options:
     price_modifier: +12.00
 sku: mueslibag
 subscription: false
-available: true
+available: false
 image_path: /2019-06-05-hanmade-mueslibagsquare.jpg
 ingredients:
   - Australian Rolled Oats (46%)

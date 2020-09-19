@@ -1,15 +1,16 @@
 ---
+enabled: true
 image:
 
 _array_structures:
     image:
         - label: wide image
-          value: 
-            wide_image_path: 
+          value:
+            wide_image_path:
             image_direction: wide
         - label: tall image
-          value: 
-            tall_image_path: 
+          value:
+            tall_image_path:
             image_direction: tall
 
 _options:

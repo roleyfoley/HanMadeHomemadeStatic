@@ -5,34 +5,36 @@ title: Hanmade Homemade
 <div>
 	<ul class="headlines">
 		{% for headline in site.headlines %}
-		{% if headline.image.image_direction == "wide" %}
-			{% assign image_path = headline.image.wide_image_path %}
-		{%else %}
-			{% assign image_path = headline.image.tall_image_path %}
-		{% endif %}
-		<li>
-			{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-			{% if thecycle == 'odd' %}
-				<div class="headline img-first">
-					<div class="headline-blurb">
-						<div class="blurb">{{headline.content}}</div>
-					</div>
-					<div class="headline-image">
-						<div class="{{headline.image.image_direction}}" style="background-image: url({% include relative-src.html src=image_path %})"></div>
-					</div>
-				</div>
-			{% else %}
-				<div class="headline img-second">
-					<div class="headline-blurb">
-							<div class="blurb">{{headline.content}}</div>
-					</div>
-					<div class="headline-image">
-						<div class="{{headline.image.image_direction}}" 
-							style="background-image: url({% include relative-src.html src=image_path %})"></div>
-					</div>
-				</div>
+			{%if headline.enabled %}
+				{% if headline.image.image_direction == "wide" %}
+					{% assign image_path = headline.image.wide_image_path %}
+				{%else %}
+					{% assign image_path = headline.image.tall_image_path %}
+				{% endif %}
+				<li>
+					{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+					{% if thecycle == 'odd' %}
+						<div class="headline img-first">
+							<div class="headline-blurb">
+								<div class="blurb">{{headline.content}}</div>
+							</div>
+							<div class="headline-image">
+								<div class="{{headline.image.image_direction}}" style="background-image: url({% include relative-src.html src=image_path %})"></div>
+							</div>
+						</div>
+					{% else %}
+						<div class="headline img-second">
+							<div class="headline-blurb">
+									<div class="blurb">{{headline.content}}</div>
+							</div>
+							<div class="headline-image">
+								<div class="{{headline.image.image_direction}}"
+									style="background-image: url({% include relative-src.html src=image_path %})"></div>
+							</div>
+						</div>
+					{% endif %}
+				</li>
 			{% endif %}
-		</li>
 		{% endfor %}
 	</ul>
 </div>

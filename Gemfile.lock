@@ -93,6 +93,7 @@ GEM
 PLATFORMS
   ruby
   x64-mingw32
+  x86_64-linux-musl
 
 DEPENDENCIES
   cloudcannon-jekyll
@@ -102,4 +103,4 @@ DEPENDENCIES
   s3_website (= 3.4.0)
 
 BUNDLED WITH
-   2.1.4
+   2.2.2
